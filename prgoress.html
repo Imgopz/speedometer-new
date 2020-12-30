@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } 
+        
+        svg path {
+            will-change: auto;
+            stroke-width: 20px;
+            stroke-miterlimit: round;
+            transition: stroke-dashoffset 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg  xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0 0 200 200">
+            <path class="bg" stroke="#ccc" d="M41 149.5a77 77 0 1 1 117.93 0"  fill="none"/>
+            <path class="meter" stroke="#09c" d="M41 149.5a77 77 0 1 1 117.93 0" fill="none" stroke-dasharray="350" stroke-dashoffset="350"/>
+        </svg>    
+        <p>Default range slider:</p>
+        <input type="range" min="0" max="100" value="0" class="slider" id="myRange" onChange="needleRotation()">
+        <p>Value: <span id="demo"></span></p>       
+    </div>
+    <script>
+        console.clear();
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        const meters = document.querySelectorAll('.meter');
+        var lenght = 0;
+        output.innerHTML = slider.value;
+        meters.forEach( (path) => {
+            length = path.getTotalLength();
+        })
+        console.log(length);
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+          let to = length * ((100 - this.value) / 100);
+        //   path.getBoundingClientRect();
+            meters.forEach( (path) => {
+                path.style.strokeDashoffset = Math.max(0, to);
+            })
+          
+        }
+    </script>
+</body>
+</html>
