@@ -1,0 +1,19 @@
+<svg id="dev-prod-c" width="100mm" height="100mm" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="dev-prod-d">
+  <linearGradient id="dev-prod-a" x1="79.64" x2="75.671" y1="34.66" y2="174.1" gradientUnits="userSpaceOnUse">
+   <stop id="dev-prod-e" stop-color="#2affd5" offset="0"/>
+   <stop id="dev-prod-f" stop-color="#2a7fff" offset="1"/>
+  </linearGradient>
+  <filter id="dev-prod-b" x="-.096699" y="-.096699" width="1.1934" height="1.1934" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-g" stdDeviation="3.4326562"/>
+  </filter>
+ </defs>
+ <g id="dev-prod-h" transform="translate(-26.458 -60.59)" fill="none" stroke-width="13.229">
+  <circle id="dev-prod-i" cx="75.671" cy="109.8" r="42.598" opacity=".99" stroke="#1a1a1a"/>
+  <g stroke="url(#dev-prod-a)" stroke-linecap="round" stroke-linejoin="round">
+   <path id="dev-prod-j" d="m118.27 109.8a42.598 42.598 0 0 1-26.296 39.355 42.598 42.598 0 0 1-46.423-9.2341 42.598 42.598 0 0 1-9.2341-46.423 42.598 42.598 0 0 1 39.355-26.296" filter="url(#dev-prod-b)" opacity=".99"/>
+   <path id="dev-prod-k" d="m118.27 109.8a42.598 42.598 0 0 1-26.296 39.355 42.598 42.598 0 0 1-46.423-9.2341 42.598 42.598 0 0 1-9.2341-46.423 42.598 42.598 0 0 1 39.355-26.296" opacity=".99"/>
+   <path id="dev-prod-l" d="m118.27 109.8a42.598 42.598 0 0 1-26.296 39.355 42.598 42.598 0 0 1-46.423-9.2341 42.598 42.598 0 0 1-9.2341-46.423 42.598 42.598 0 0 1 39.355-26.296" opacity=".99"/>
+  </g>
+ </g>
+</svg>

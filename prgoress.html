@@ -20,6 +20,19 @@
             stroke-miterlimit: round;
             transition: stroke-dashoffset 0.5s ease-out;
         }
+
+        .meter {
+            box-shadow: 0 0 10px #09c,
+                        0 0 25px #09c,
+                        0 0 50px #09c,
+                        0 0 100px #09c;
+        }
+
+        #dev-prod-b {
+            padding: 20px;
+            height: 200px;
+        }
+        
     </style>
 </head>
 <body>
@@ -27,7 +40,7 @@
         <svg  xmlns="http://www.w3.org/2000/svg" height="200" width="200" viewBox="0 0 200 200">
             <path class="bg" stroke="#ccc" d="M41 149.5a77 77 0 1 1 117.93 0"  fill="none"/>
             <path class="meter" stroke="#09c" d="M41 149.5a77 77 0 1 1 117.93 0" fill="none" stroke-dasharray="350" stroke-dashoffset="350"/>
-        </svg>    
+        </svg>                        
         <p>Default range slider:</p>
         <input type="range" min="0" max="100" value="0" class="slider" id="myRange" onChange="needleRotation()">
         <p>Value: <span id="demo"></span></p>   

@@ -1,0 +1,328 @@
+<svg id="dev-prod-ae" width="147.35mm" height="147.35mm" version="1.1" viewBox="0 0 147.35 147.35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="dev-prod-af">
+  <filter id="dev-prod-a" x="-1.5855e-5" y="-2.4334e-5" width="1" height="1" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-ag" stdDeviation="8.6629087e-05"/>
+  </filter>
+  <radialGradient id="dev-prod-k" cx="119.3" cy="146.2" r="18.884" gradientTransform="matrix(2.3926 .79557 -.74638 2.2447 -56.844 -274.47)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-n"/>
+  <linearGradient id="dev-prod-n">
+   <stop id="dev-prod-ah" stop-color="#f00" offset="0"/>
+   <stop id="dev-prod-ai" stop-color="#ff2a2a" offset="1"/>
+  </linearGradient>
+  <clipPath id="dev-prod-ac">
+   <path id="dev-prod-aj" d="m123.31 133.76c-14.28 11.354-14.424 11.472-14.424 11.472l-6.1506-11.773 9.7758-12.861z" display="none" fill="none" stroke="#000" stroke-width=".26458px"/>
+   <path id="dev-prod-ak" class="powerclip" d="m90.893 117.44h47.768v58.419h-47.768zm32.419 16.324-10.799-13.162-9.7758 12.861 6.1506 11.773s0.14464-0.11867 14.424-11.472z" fill="none" stroke="#000" stroke-width=".26458px"/>
+  </clipPath>
+  <clipPath id="dev-prod-e">
+   <path id="dev-prod-al" d="m103.98 136.79 12.568-14.949 23.151 43.789-25.268 4.6302-17.463-25.731z" fill="none" stroke="#000" stroke-width=".26458px"/>
+  </clipPath>
+  <filter id="dev-prod-g" x="-.028634" y="-.028634" width="1.0573" height="1.0573" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-am" stdDeviation="1.4698006"/>
+  </filter>
+  <radialGradient id="dev-prod-j" cx="114.37" cy="153.07" r="18.884" gradientTransform="matrix(2.3926 .79557 -.74638 2.2447 -56.844 -274.47)" gradientUnits="userSpaceOnUse">
+   <stop id="dev-prod-an" stop-color="#f60" offset="0"/>
+   <stop id="dev-prod-ao" stop-color="#f00" offset="1"/>
+  </radialGradient>
+  <radialGradient id="dev-prod-m" cx="124.74" cy="152.06" r="64.894" gradientTransform="matrix(-2.6439 -1.652 1.6512 -2.6427 203.87 759.77)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-f"/>
+  <linearGradient id="dev-prod-f">
+   <stop id="dev-prod-ap" stop-color="#f60" offset="0"/>
+   <stop id="dev-prod-aq" stop-color="#ff0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="dev-prod-l" cx="118.77" cy="144.89" r="64.894" gradientTransform="matrix(-2.6439 -1.652 1.6512 -2.6427 203.87 759.77)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-f"/>
+  <filter id="dev-prod-q" x="-.048587" y="-.048587" width="1.0972" height="1.0972" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-ar" stdDeviation="0.94617713"/>
+  </filter>
+  <filter id="dev-prod-c" x="-.9544" y="-.011601" width="2.9088" height="1.0232" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-as" stdDeviation="0.31564934"/>
+  </filter>
+  <filter id="dev-prod-d" x="-.55811" y="-.0067838" width="2.1162" height="1.0136" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-at" stdDeviation="0.18458387"/>
+  </filter>
+  <filter id="dev-prod-r" x="-.079357" y="-.066871" width="1.1587" height="1.1337" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-au" stdDeviation="1.4080466"/>
+  </filter>
+  <filter id="dev-prod-s" x="-.04474" y="-.04474" width="1.0895" height="1.0895" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-av" stdDeviation="0.98588147"/>
+  </filter>
+  <linearGradient id="dev-prod-p" x1="47.33" x2="91.39" y1="227.89" y2="227.89" gradientTransform="matrix(.78378 0 0 .78378 11.055 -3.649)" gradientUnits="userSpaceOnUse">
+   <stop id="dev-prod-aw" stop-color="#f00" offset="0"/>
+   <stop id="dev-prod-ax" stop-color="#0f0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="dev-prod-o" x1="47.33" x2="91.39" y1="227.89" y2="227.89" gradientTransform="matrix(.78378 0 0 .78378 -119.78 -345.18)" gradientUnits="userSpaceOnUse">
+   <stop id="dev-prod-ay" stop-color="#f00" offset="0"/>
+   <stop id="dev-prod-az" stop-color="#0f0" offset=".50026"/>
+   <stop id="dev-prod-ba" stop-color="#0ff" offset="1"/>
+  </linearGradient>
+  <clipPath id="dev-prod-ad">
+   <g id="dev-prod-bb" display="none">
+    <path id="dev-prod-bc" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+    <path id="dev-prod-bd" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+   </g>
+   <path id="dev-prod-be" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+  </clipPath>
+  <filter id="dev-prod-z" x="-.1403" y="-.1403" width="1.2806" height="1.2806" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bf" stdDeviation="0.67677257"/>
+  </filter>
+  <clipPath id="dev-prod-aa">
+   <g id="dev-prod-bg" display="none">
+    <path id="dev-prod-bh" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+    <path id="dev-prod-bi" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+   </g>
+   <path id="dev-prod-bj" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+  </clipPath>
+  <clipPath id="dev-prod-ab">
+   <g id="dev-prod-bk" display="none">
+    <path id="dev-prod-bl" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+    <path id="dev-prod-bm" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+   </g>
+   <path id="dev-prod-bn" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+  </clipPath>
+  <filter id="dev-prod-v" x="-.6365" y="-.27278" width="2.273" height="1.5456" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bo" stdDeviation="0.21050822"/>
+  </filter>
+  <filter id="dev-prod-w" x="-.6365" y="-.14003" width="2.273" height="1.2801" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bp" stdDeviation="0.21050822"/>
+  </filter>
+  <filter id="dev-prod-x" x="-.6365" y="-.079683" width="2.273" height="1.1594" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bq" stdDeviation="0.21050822"/>
+  </filter>
+  <filter id="dev-prod-y" x="-.6365" y="-.056499" width="2.273" height="1.113" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-br" stdDeviation="0.21050822"/>
+  </filter>
+  <filter id="dev-prod-u" x="-.091104" y="-.081479" width="1.1822" height="1.163" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bs" stdDeviation="0.18036077"/>
+  </filter>
+  <filter id="dev-prod-t" x="-.046464" y="-.046464" width="1.0929" height="1.0929" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bt" stdDeviation="2.5039069"/>
+  </filter>
+  <filter id="dev-prod-i" x="-.1552" y="-.25169" width="1.3104" height="1.5034" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bu" stdDeviation="0.5614954"/>
+  </filter>
+  <filter id="dev-prod-h" x="-.083583" y="-.13555" width="1.1672" height="1.2711" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="dev-prod-bv" stdDeviation="0.30240267"/>
+  </filter>
+ </defs>
+ <g id="dev-prod-bw" transform="translate(14.939 -51.84)">
+  <circle id="dev-prod-bx" cx="58.737" cy="125.52" r="64.667" filter="url(#dev-prod-t)" opacity=".99" stroke="#000" stroke-width="1.552"/>
+  <circle id="dev-prod-by" cx="58.737" cy="125.52" r="64.667" opacity=".99" stroke="#000" stroke-width="1.552"/>
+  <text id="dev-prod-bz" transform="matrix(.51401 0 0 .51401 23.949 61.387)" fill="#ffffff" filter="url(#dev-prod-a)" font-family="sans-serif" font-size="11.289px" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5895);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">4</tspan></tspan></text>
+  <g fill="#ccc">
+   <rect id="dev-prod-ca" transform="rotate(240)" x="-138.6" y="-76.023" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-cb" transform="rotate(255)" x="-136.97" y="-39.883" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-cc" transform="rotate(-90)" x="-126.05" y="-5.3958" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-cd" transform="rotate(-75)" x="-106.57" y="25.089" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-ce" transform="rotate(-60)" x="-79.861" y="49.493" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-cf" transform="rotate(-15)" x="23.721" y="72.309" width="1.0583" height="7.9375" opacity=".99"/>
+  </g>
+  <g fill="#808080">
+   <rect id="dev-prod-cg" transform="rotate(40)" x="125.15" y="-5.7378" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-ch" transform="rotate(60)" x="137.54" y="-52.243" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-ci" transform="rotate(80)" x="133.28" y="-100.18" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cj" transform="rotate(100)" x="112.88" y="-143.77" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-ck" transform="rotate(120)" x="78.803" y="-177.76" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cl" transform="rotate(140)" x="35.156" y="-198.04" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cm" transform="rotate(40)" x="125.15" y="-5.7378" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cn" transform="rotate(60)" x="137.54" y="-52.243" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-co" transform="rotate(80)" x="133.28" y="-100.18" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cp" transform="rotate(100)" x="112.88" y="-143.77" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cq" transform="rotate(120)" x="78.803" y="-177.76" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cr" transform="rotate(140)" x="35.156" y="-198.04" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cs" transform="rotate(40)" x="125.15" y="-5.7378" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-ct" transform="rotate(60)" x="137.54" y="-52.243" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cu" transform="rotate(80)" x="133.28" y="-100.18" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-cv" transform="rotate(100)" x="112.88" y="-143.77" width="1.0583" height="11.305" opacity=".99"/>
+  </g>
+  <rect id="dev-prod-cw" transform="rotate(120)" x="78.803" y="-177.76" width="1.0583" height="11.305" fill="#ccc" opacity=".99"/>
+  <rect id="dev-prod-cx" transform="rotate(140)" x="35.156" y="-198.04" width="1.0583" height="11.305" fill="#808080" opacity=".99"/>
+  <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+   <text id="dev-prod-cy" transform="matrix(.51401 0 0 .51401 -70.994 26.579)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5803);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">100</tspan></tspan></text>
+   <text id="dev-prod-cz" transform="matrix(.51401 0 0 .51401 -62.379 14.448)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5827);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">120</tspan></tspan></text>
+   <text id="dev-prod-da" transform="matrix(.51401 0 0 .51401 -50.402 5.6801)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5833);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">140</tspan></tspan></text>
+   <text id="dev-prod-db" transform="matrix(.51401 0 0 .51401 -37.174 -.045679)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5839);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">160</tspan></tspan></text>
+  </g>
+  <g id="dev-prod-dc" transform="rotate(264.37 40.238 156.6)" clip-path="url(#dev-prod-ac)" fill="none" stroke-width="7.5607">
+   <circle id="dev-prod-dd" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" d="M 130.95764,178.06491 A 61.597267,61.597267 0 0 1 69.360374,239.66218 61.597267,61.597267 0 0 1 7.7631073,178.06491 61.597267,61.597267 0 0 1 69.360374,116.46764 61.597267,61.597267 0 0 1 130.95764,178.06491" clip-path="url(#dev-prod-e)" filter="url(#dev-prod-g)" opacity=".79472" stroke="url(#dev-prod-k)"/>
+   <circle id="dev-prod-de" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" d="M 130.95764,178.06491 A 61.597267,61.597267 0 0 1 69.360374,239.66218 61.597267,61.597267 0 0 1 7.7631073,178.06491 61.597267,61.597267 0 0 1 69.360374,116.46764 61.597267,61.597267 0 0 1 130.95764,178.06491" clip-path="url(#dev-prod-e)" opacity=".79472" stroke="url(#dev-prod-j)"/>
+  </g>
+  <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+   <text id="dev-prod-df" transform="matrix(.51401 0 0 .51401 24.15 44.097)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5901);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">6</tspan></tspan></text>
+   <text id="dev-prod-dg" transform="matrix(.51401 0 0 .51401 18.425 27.781)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5907);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">8</tspan></tspan></text>
+   <text id="dev-prod-dh" transform="matrix(.51401 0 0 .51401 4.1569 14.803)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5913);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">10</tspan></tspan></text>
+  </g>
+  <g id="dev-prod-di" transform="translate(-10.623 -52.548)" fill="none" stroke-width="7.5607">
+   <circle id="dev-prod-dj" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" clip-path="url(#dev-prod-e)" filter="url(#dev-prod-g)" opacity=".79472" stroke="url(#dev-prod-m)"/>
+   <path id="dev-prod-dk" transform="translate(-1.0763 .59575)" d="m130.96 178.06a61.597 61.597 0 0 1-59.395 61.558 61.597 61.597 0 0 1-63.642-57.156 61.597 61.597 0 0 1 54.845-65.645 61.597 61.597 0 0 1 67.563 52.463" clip-path="url(#dev-prod-e)" opacity=".79472" stroke="url(#dev-prod-l)"/>
+  </g>
+  <rect id="dev-prod-b" transform="rotate(50)" x="133.51" y="-28.659" width=".79375" height="4.3327" fill="#b3b3b3" opacity=".99"/>
+  <use id="dev-prod-dl" transform="rotate(20 58.737 125.52)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+  <g fill="#ccc">
+   <rect id="dev-prod-dm" transform="rotate(-45)" x="-47.749" y="66.154" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-dn" transform="rotate(-30)" x="-12.419" y="73.936" width="1.0583" height="7.9375" opacity=".99"/>
+   <rect id="dev-prod-do" transform="rotate(40)" x="125.15" y="-5.7378" width="1.0583" height="11.305" opacity=".99"/>
+   <rect id="dev-prod-dp" transform="rotate(60)" x="137.54" y="-52.243" width="1.0583" height="11.305" opacity=".99"/>
+  </g>
+  <use id="dev-prod-dq" transform="rotate(40 58.737 125.52)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+  <rect id="dev-prod-dr" transform="rotate(80)" x="133.28" y="-100.18" width="1.0583" height="11.305" fill="#ccc" opacity=".99"/>
+  <use id="dev-prod-ds" transform="rotate(60 58.737 125.52)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+  <rect id="dev-prod-dt" transform="rotate(100)" x="112.88" y="-143.77" width="1.0583" height="11.305" fill="#ccc" opacity=".99"/>
+  <g fill="#b3b3b3">
+   <rect id="dev-prod-du" transform="rotate(232.5)" x="-135.87" y="-93.943" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-dv" transform="rotate(247.5)" x="-138.97" y="-57.9" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-dw" transform="rotate(-97.5)" x="-132.64" y="-22.281" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-dx" transform="rotate(-82.5)" x="-117.3" y="10.485" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-dy" transform="rotate(-67.5)" x="-94.013" y="38.166" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-dz" transform="rotate(-52.5)" x="-64.351" y="58.876" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-ea" transform="rotate(-37.5)" x="-30.339" y="71.203" width="1.0583" height="5.2917" opacity=".99"/>
+   <rect id="dev-prod-eb" transform="rotate(-22.5)" x="5.7041" y="74.307" width="1.0583" height="5.2917" opacity=".99"/>
+  </g>
+  <rect id="dev-prod-ec" transform="rotate(225)" x="-130.82" y="-111.35" width="1.0583" height="7.9375" fill="#ccc" opacity=".99"/>
+  <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+   <text id="dev-prod-ed" transform="matrix(.51401 0 0 .51401 -71.054 77.59)" style="line-height:1.25;shape-inside:url(#rect5739);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="Tahoma">20</tspan></tspan></text>
+   <text id="dev-prod-ee" transform="matrix(.51401 0 0 .51401 -71.054 77.59)" style="line-height:1.25;shape-inside:url(#rect5919);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">20</tspan></tspan></text>
+   <text id="dev-prod-ef" transform="matrix(.51401 0 0 .51401 -76.136 65.269)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5785);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">40</tspan></tspan></text>
+   <text id="dev-prod-eg" transform="matrix(.51401 0 0 .51401 -77.85 52.013)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5791);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">60</tspan></tspan></text>
+   <text id="dev-prod-eh" transform="matrix(.51401 0 0 .51401 -76.078 38.779)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5797);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">80</tspan></tspan></text>
+  </g>
+  <g id="dev-prod-ei" transform="translate(-10.623 -52.548)" fill="#fc0">
+   <g id="dev-prod-ej" transform="rotate(225 105.72 192.58)" filter="url(#dev-prod-q)">
+    <rect id="dev-prod-ek" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+    <rect id="dev-prod-el" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+    <rect id="dev-prod-em" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+   </g>
+   <g id="dev-prod-en" transform="rotate(225 105.72 192.58)">
+    <rect id="dev-prod-eo" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+    <rect id="dev-prod-ep" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+    <rect id="dev-prod-eq" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+   </g>
+  </g>
+  <text id="dev-prod-er" transform="matrix(.51401 0 0 .51401 17.847 77.566)" fill="#ffffff" filter="url(#dev-prod-a)" font-family="sans-serif" font-size="11.289px" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5889);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">2</tspan></tspan></text>
+  <use id="dev-prod-es" transform="rotate(80 58.737 125.52)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+  <g id="dev-prod-et" transform="translate(-10.623 -52.548)">
+   <g id="dev-prod-eu" transform="rotate(140 105.36 164.43)" fill="#f00">
+    <rect id="dev-prod-ev" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+    <rect id="dev-prod-ew" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+    <rect id="dev-prod-ex" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+   </g>
+   <g id="dev-prod-ey" transform="rotate(140 105.36 164.43)" filter="url(#dev-prod-r)">
+    <g id="dev-prod-ez" fill="#f00">
+     <rect id="dev-prod-fa" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+     <g id="dev-prod-fb">
+      <rect id="dev-prod-fc" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+      <rect id="dev-prod-fd" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <circle id="dev-prod-fe" cx="58.737" cy="125.52" r="26.443" fill="none" filter="url(#dev-prod-s)" opacity=".99" stroke="#b3b3b3" stroke-width="1.5875"/>
+  <circle id="dev-prod-ff" cx="58.737" cy="125.52" r="26.443" opacity=".99" stroke="#666" stroke-width="1.5875"/>
+  <path id="dev-prod-fg" d="m45.785 172.3v2.2819c0 0.11447-0.09289 0.20745-0.20745 0.20745-0.11455 0-0.20745-0.0928-0.20745-0.20745v-0.82979c0-0.3437-0.27864-0.62234-0.62234-0.62234h-0.62234v-2.4894c0-0.22914-0.18575-0.4149-0.41489-0.4149h-2.4894c-0.22915 0-0.41489 0.18576-0.41489 0.4149v4.5638c0 0.22915 0.18574 0.41491 0.41489 0.41491h2.4894c0.22915 0 0.41489-0.18576 0.41489-0.41491v-1.6596h0.62234c0.11455 0 0.20745 0.0928 0.20745 0.20744v0.82979c0 0.3437 0.27864 0.62233 0.62234 0.62233 0.3437 0 0.62234-0.27863 0.62234-0.62233v-2.6968c0-0.22914-0.18575-0.4149-0.41489-0.4149v-0.62649c-0.0021-0.1129-0.09448-0.20334-0.20745-0.20329-0.11684 2e-3 -0.21002 0.0982-0.20807 0.21508 8.4e-5 5e-3 2.64e-4 9e-3 5.29e-4 0.0125v1.0165c0 0.22914 0.18575 0.41489 0.4149 0.41489 0.22915 0 0.4149-0.18575 0.4149-0.41489 0-0.22915-0.18575-0.41491-0.4149-0.41491m-2.0745 1.0372c0 0.11448-0.0929 0.20745-0.20745 0.20745h-2.0745c-0.11455 0-0.20745-0.0928-0.20745-0.20745v-1.2447c0-0.11463 0.09289-0.20744 0.20745-0.20744h2.0745c0.11455 0 0.20745 0.0928 0.20745 0.20744z" fill="#f00" stroke-width=".41489"/>
+  <rect id="dev-prod-fh" transform="scale(-1)" x="-82.685" y="-175.62" width="34.533" height="1.3059" fill="#4d4d4d" opacity=".99" stroke="#000" stroke-width=".11112"/>
+  <rect id="dev-prod-fi" x="48.151" y="174.31" width="34.533" height="1.3059" fill="url(#dev-prod-p)" opacity=".99"/>
+  <g id="dev-prod-fj" transform="matrix(.01829 0 0 .01829 63.488 67.343)">
+   <g id="dev-prod-fk" fill="#8b7e7f">
+    <path id="dev-prod-fl" d="m256 284.98c-1.856 0-3.712-0.639-5.214-1.917l-31.463-26.751 10.43-12.267 26.247 22.319 26.244-22.314 10.43 12.267-31.458 26.747c-1.504 1.277-3.36 1.916-5.216 1.916z"/>
+    <path id="dev-prod-fm" d="m256 376.76c-1.597 0-3.193-0.473-4.568-1.422l-58.294-40.183c-3.661-2.524 5.477-15.78 9.138-13.257l53.726 37.033 53.72-37.029c3.661-2.522 12.798 10.734 9.138 13.257l-58.289 40.179c-1.378 0.947-2.975 1.422-4.571 1.422z"/>
+    <path id="dev-prod-fn" d="m256 468.53c-1.394 0-2.789-0.362-4.037-1.085l-86.339-50.041c-3.847-2.229 4.227-16.161 8.073-13.93l82.302 47.701 82.304-47.702c3.846-2.229 11.92 11.7 8.073 13.93l-86.34 50.042c-1.247 0.724-2.642 1.085-4.036 1.085z"/>
+   </g>
+   <path id="dev-prod-fo" d="m256 220.04c-60.666 0-110.02-49.355-110.02-110.02s49.355-110.02 110.02-110.02 110.02 49.355 110.02 110.02-49.355 110.02-110.02 110.02zm0-203.94c-51.788 0-93.92 42.132-93.92 93.92s42.132 93.92 93.92 93.92 93.92-42.132 93.92-93.92-42.132-93.92-93.92-93.92z" fill="#fee191"/>
+   <path id="dev-prod-fp" d="m256 177.11c-36.991 0-67.086-30.095-67.086-67.086s30.095-67.086 67.086-67.086 67.086 30.095 67.086 67.086-30.095 67.086-67.086 67.086zm0-118.07c-28.113 0-50.985 22.873-50.985 50.985s22.873 50.985 50.985 50.985 50.985-22.873 50.985-50.985-22.872-50.985-50.985-50.985z" fill="#ffd24d"/>
+   <path id="dev-prod-fq" d="m364.03 448.93-99.982-291.95v-41.593h-16.1v41.595l-99.99 291.97c-1.44 4.207 0.802 8.784 5.007 10.225 0.864 0.295 1.744 0.436 2.609 0.436 3.346 0 6.471-2.102 7.616-5.444l84.758-247.5v297.27c0 4.446 3.604 8.05 8.05 8.05s8.05-3.604 8.05-8.05v-297.27l84.75 247.47c1.442 4.205 6.017 6.45 10.225 5.007 4.206-1.44 6.449-6.018 5.007-10.224z" fill="#605353"/>
+   <circle id="dev-prod-fr" cx="256" cy="110.02" r="16.101" fill="#f14742"/>
+  </g>
+  <path id="dev-prod-fs" d="m76.797 87.803v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" fill="#4d4d4d" opacity=".99"/>
+  <g id="dev-prod-ft" transform="matrix(.10863 0 0 .10863 40.023 160.7)" fill="#f00" data-name="42.thermometer">
+   <path id="dev-prod-fu" d="m36.11 39.44v-28.7a6.71 6.71 0 0 0-13.41 0v28.7c-8.82 6.29-4.14 20.62 6.71 20.56 10.84 0.06 15.53-14.27 6.7-20.56zm-6.7 18.56c-9.18 0.07-12.86-12.21-5.15-17.19a1.15 1.15 0 0 0 0.44-0.84v-29.23a4.71 4.71 0 0 1 9.41 0v29.19a1.22 1.22 0 0 0 0.45 0.84c7.7 4.97 4.02 17.23-5.15 17.23z"/>
+   <path id="dev-prod-fv" d="m45 34.63h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+   <path id="dev-prod-fw" d="m45 30.48h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+   <path id="dev-prod-fx" d="m45 26.33h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+   <path id="dev-prod-fy" d="m45 22.19h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+   <path id="dev-prod-fz" d="m45 18h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+   <path id="dev-prod-ga" d="m39.26 15.89h5.74a1 1 0 0 0 0-2h-5.7a1.0002 1.0002 0 0 0-0.04 2z"/>
+   <path id="dev-prod-gb" d="m30.41 41.45v-29.15a1 1 0 0 0-2 0v29.15c-8.78 1.42-7.95 14.14 1 14.36 8.95-0.22 9.78-12.94 1-14.36zm-1 12.36c-6.9-0.22-6.9-10.22 0-10.44 6.9 0.22 6.9 10.23 0 10.44z"/>
+  </g>
+  <rect id="dev-prod-gc" transform="scale(-1)" x="-82.685" y="-167.22" width="34.533" height="1.3059" fill="#4d4d4d" opacity=".99" stroke="#000" stroke-width=".11112"/>
+  <rect id="dev-prod-gd" transform="scale(-1)" x="-82.685" y="-167.22" width="34.533" height="1.3059" fill="url(#dev-prod-o)" opacity=".99"/>
+  <g fill="#ffffff" font-family="sans-serif">
+   <text id="dev-prod-ge" x="14.890336" y="119.87325" font-size="4.8347px" stroke-width=".11331" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gf" x="14.890336" y="119.87325" fill="#ffffff" font-family="'Segoe UI'" stroke-width=".11331">kmh</tspan></text>
+   <text id="dev-prod-gg" x="90.327843" y="126.83433" font-size="4.8347px" stroke-width=".11331" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gh" x="90.327843" y="126.83433" fill="#ffffff" font-family="'Segoe UI'" stroke-width=".11331">/min x 100</tspan></text>
+   <g font-size="3.0732px" stroke-width=".072028">
+    <text id="dev-prod-gi" x="47.851227" y="164.96992" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gj" x="47.851227" y="164.96992" fill="#ffffff" stroke-width=".072028">L </tspan></text>
+    <text id="dev-prod-gk" x="64.118515" y="164.96992" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gl" x="64.118515" y="164.96992" fill="#ffffff" stroke-width=".072028">N </tspan></text>
+    <text id="dev-prod-gm" x="80.37381" y="164.96992" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gn" x="80.37381" y="164.96992" fill="#ffffff" stroke-width=".072028">H </tspan></text>
+    <text id="dev-prod-go" x="47.851227" y="173.34741" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gp" x="47.851227" y="173.34741" fill="#ffffff" stroke-width=".072028">L </tspan></text>
+    <text id="dev-prod-gq" x="64.118515" y="173.34741" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gr" x="64.118515" y="173.34741" fill="#ffffff" stroke-width=".072028">H </tspan></text>
+    <text id="dev-prod-gs" x="80.37381" y="173.34741" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-gt" x="80.37381" y="173.34741" fill="#ffffff" stroke-width=".072028">F </tspan></text>
+   </g>
+  </g>
+  <g id="dev-prod-gu" transform="translate(-99.105 -71.84)" fill="none" stroke="#4d4d4d">
+   <circle id="dev-prod-gv" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+   <path id="dev-prod-gw" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-ad)" opacity=".99" stroke-width="1.0619"/>
+  </g>
+  <g id="dev-prod-gx" transform="translate(-100.25 -71.076)" fill="none">
+   <g id="dev-prod-gy" transform="translate(1.146 -.76402)" filter="url(#dev-prod-z)" stroke="#ff2a2a">
+    <circle id="dev-prod-gz" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+    <path id="dev-prod-ha" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-aa)" opacity=".99" stroke-width="1.0619"/>
+   </g>
+   <g id="dev-prod-hb" transform="translate(1.146 -.76402)" stroke="#f00">
+    <circle id="dev-prod-hc" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+    <path id="dev-prod-hd" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-ab)" opacity=".99" stroke-width="1.0619"/>
+   </g>
+  </g>
+  <g fill="#4d4d4d">
+   <rect id="dev-prod-he" x="71.806" y="74.855" width=".79375" height="1.8521"/>
+   <rect id="dev-prod-hf" x="73.231" y="73.1" width=".79375" height="3.608"/>
+   <rect id="dev-prod-hg" x="74.655" y="70.367" width=".79375" height="6.3403"/>
+   <rect id="dev-prod-hh" x="76.08" y="67.765" width=".79375" height="8.9421"/>
+  </g>
+  <g id="dev-prod-hi" transform="translate(-93.686 -77.265)">
+   <g id="dev-prod-hj">
+    <rect id="dev-prod-hk" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0"/>
+   </g>
+   <rect id="dev-prod-hl" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0" filter="url(#dev-prod-v)"/>
+  </g>
+  <g id="dev-prod-hm" transform="translate(-93.686 -77.265)" fill="#0f0">
+   <rect id="dev-prod-hn" x="166.92" y="150.36" width=".79375" height="3.608"/>
+   <rect id="dev-prod-ho" x="166.92" y="150.36" width=".79375" height="3.608" filter="url(#dev-prod-w)"/>
+  </g>
+  <g id="dev-prod-hp" transform="translate(-93.686 -77.265)" fill="#0f0">
+   <rect id="dev-prod-hq" x="168.34" y="147.63" width=".79375" height="6.3403"/>
+   <rect id="dev-prod-hr" x="168.34" y="147.63" width=".79375" height="6.3403" filter="url(#dev-prod-x)"/>
+  </g>
+  <g id="dev-prod-hs" transform="translate(-93.686 -77.265)" fill="#0f0">
+   <rect id="dev-prod-ht" x="169.77" y="145.03" width=".79375" height="8.9421"/>
+   <rect id="dev-prod-hu" x="169.77" y="145.03" width=".79375" height="8.9421" filter="url(#dev-prod-y)"/>
+  </g>
+  <g id="dev-prod-hv" transform="matrix(1.306 0 0 1.306 65.994 -45.874)" fill="#0cf">
+   <g id="dev-prod-hw" transform="matrix(1.4843 0 0 1.4843 -100.43 -173.26)" filter="url(#dev-prod-u)">
+    <g id="dev-prod-hx" transform="matrix(.076279 0 0 .076279 55.391 211.62)" data-name="Layer 65">
+     <path id="dev-prod-hy" d="m32 21.54a10.47 10.47 0 0 0-10.46 10.46c0.57 13.88 20.35 13.88 20.92 0a10.47 10.47 0 0 0-10.46-10.46zm0 17.92a7.46 7.46 0 0 1-7.46-7.46c0.35-9.88 14.58-9.88 14.92 0a7.46 7.46 0 0 1-7.46 7.46z"/>
+     <path id="dev-prod-hz" d="m53.94 26.57h-3.22a18.83 18.83 0 0 0-1.65-4l2.28-2.28a1.49 1.49 0 0 0 0-2.12l-5.56-5.56a1.49 1.49 0 0 0-2.12 0l-2.28 2.28a18.83 18.83 0 0 0-4-1.65v-3.18a1.5 1.5 0 0 0-1.5-1.5h-7.82a1.5 1.5 0 0 0-1.5 1.5v3.22a18.83 18.83 0 0 0-4 1.65l-2.28-2.28a1.49 1.49 0 0 0-2.12 0l-5.56 5.56a1.49 1.49 0 0 0 0 2.12l2.28 2.28a18.83 18.83 0 0 0-1.65 4h-3.18a1.5 1.5 0 0 0-1.5 1.5v7.86a1.5 1.5 0 0 0 1.5 1.5h3.22a18.83 18.83 0 0 0 1.65 4l-2.28 2.28a1.49 1.49 0 0 0 0 2.12l5.56 5.56a1.49 1.49 0 0 0 2.12 0l2.28-2.28a18.83 18.83 0 0 0 4 1.65v3.22a1.5 1.5 0 0 0 1.5 1.5h7.86a1.5 1.5 0 0 0 1.5-1.5v-3.3a18.83 18.83 0 0 0 4-1.65l2.28 2.28a1.49 1.49 0 0 0 2.12 0l5.56-5.56a1.49 1.49 0 0 0 0-2.12l-2.28-2.28a18.83 18.83 0 0 0 1.65-4h3.22a1.5 1.5 0 0 0 1.5-1.5v-7.82a1.5 1.5 0 0 0-1.58-1.5zm-1.5 7.86h-3.01a1.51 1.51 0 0 0-1.33 1.16 17.07 17.07 0 0 1-2.28 5.45 1.55 1.55 0 0 0 0 1.16 22.12 22.12 0 0 0 2.36 2.51l-3.44 3.44-2-2a1.53 1.53 0 0 0-1.89-0.22 15.85 15.85 0 0 1-5.22 2.17 1.53 1.53 0 0 0-1.18 1.49v2.85h-4.88v-2.85a1.54 1.54 0 0 0-0.91-1.4 17 17 0 0 1-5.49-2.26 1.53 1.53 0 0 0-1.89 0.22l-2 2-3.44-3.44 2-2a1.54 1.54 0 0 0 0.22-1.89 17 17 0 0 1-2.26-5.49 1.51 1.51 0 0 0-1.4-0.91h-2.84v-4.85a25.3 25.3 0 0 0 3.4-0.1 1.52 1.52 0 0 0 0.93-1.06 16.19 16.19 0 0 1 2.18-5.24 1.54 1.54 0 0 0-0.22-1.89l-2-2 3.44-3.44 2 2a1.54 1.54 0 0 0 1.87 0.21 17 17 0 0 1 5.49-2.26 1.54 1.54 0 0 0 0.91-1.4v-2.83h4.86v2.85a1.54 1.54 0 0 0 0.91 1.4 17 17 0 0 1 5.49 2.26 1.54 1.54 0 0 0 1.87-0.21l2-2 3.44 3.44a23 23 0 0 0-2.36 2.51 1.55 1.55 0 0 0 0 1.16 17.07 17.07 0 0 1 2.28 5.45 1.54 1.54 0 0 0 1.46 1.18h2.88z"/>
+    </g>
+    <g id="dev-prod-ia" transform="matrix(.036439 0 0 .036439 58.772 210.23)" data-name="Layer 65">
+     <path id="dev-prod-ib" d="m32 21.54a10.47 10.47 0 0 0-10.46 10.46c0.57 13.88 20.35 13.88 20.92 0a10.47 10.47 0 0 0-10.46-10.46zm0 17.92a7.46 7.46 0 0 1-7.46-7.46c0.35-9.88 14.58-9.88 14.92 0a7.46 7.46 0 0 1-7.46 7.46z"/>
+     <path id="dev-prod-ic" d="m53.94 26.57h-3.22a18.83 18.83 0 0 0-1.65-4l2.28-2.28a1.49 1.49 0 0 0 0-2.12l-5.56-5.56a1.49 1.49 0 0 0-2.12 0l-2.28 2.28a18.83 18.83 0 0 0-4-1.65v-3.18a1.5 1.5 0 0 0-1.5-1.5h-7.82a1.5 1.5 0 0 0-1.5 1.5v3.22a18.83 18.83 0 0 0-4 1.65l-2.28-2.28a1.49 1.49 0 0 0-2.12 0l-5.56 5.56a1.49 1.49 0 0 0 0 2.12l2.28 2.28a18.83 18.83 0 0 0-1.65 4h-3.18a1.5 1.5 0 0 0-1.5 1.5v7.86a1.5 1.5 0 0 0 1.5 1.5h3.22a18.83 18.83 0 0 0 1.65 4l-2.28 2.28a1.49 1.49 0 0 0 0 2.12l5.56 5.56a1.49 1.49 0 0 0 2.12 0l2.28-2.28a18.83 18.83 0 0 0 4 1.65v3.22a1.5 1.5 0 0 0 1.5 1.5h7.86a1.5 1.5 0 0 0 1.5-1.5v-3.3a18.83 18.83 0 0 0 4-1.65l2.28 2.28a1.49 1.49 0 0 0 2.12 0l5.56-5.56a1.49 1.49 0 0 0 0-2.12l-2.28-2.28a18.83 18.83 0 0 0 1.65-4h3.22a1.5 1.5 0 0 0 1.5-1.5v-7.82a1.5 1.5 0 0 0-1.58-1.5zm-1.5 7.86h-3.01a1.51 1.51 0 0 0-1.33 1.16 17.07 17.07 0 0 1-2.28 5.45 1.55 1.55 0 0 0 0 1.16 22.12 22.12 0 0 0 2.36 2.51l-3.44 3.44-2-2a1.53 1.53 0 0 0-1.89-0.22 15.85 15.85 0 0 1-5.22 2.17 1.53 1.53 0 0 0-1.18 1.49v2.85h-4.88v-2.85a1.54 1.54 0 0 0-0.91-1.4 17 17 0 0 1-5.49-2.26 1.53 1.53 0 0 0-1.89 0.22l-2 2-3.44-3.44 2-2a1.54 1.54 0 0 0 0.22-1.89 17 17 0 0 1-2.26-5.49 1.51 1.51 0 0 0-1.4-0.91h-2.84v-4.85a25.3 25.3 0 0 0 3.4-0.1 1.52 1.52 0 0 0 0.93-1.06 16.19 16.19 0 0 1 2.18-5.24 1.54 1.54 0 0 0-0.22-1.89l-2-2 3.44-3.44 2 2a1.54 1.54 0 0 0 1.87 0.21 17 17 0 0 1 5.49-2.26 1.54 1.54 0 0 0 0.91-1.4v-2.83h4.86v2.85a1.54 1.54 0 0 0 0.91 1.4 17 17 0 0 1 5.49 2.26 1.54 1.54 0 0 0 1.87-0.21l2-2 3.44 3.44a23 23 0 0 0-2.36 2.51 1.55 1.55 0 0 0 0 1.16 17.07 17.07 0 0 1 2.28 5.45 1.54 1.54 0 0 0 1.46 1.18h2.88z"/>
+    </g>
+   </g>
+   <g id="dev-prod-id" transform="matrix(1.4843 0 0 1.4843 -100.43 -173.26)">
+    <g id="dev-prod-ie" transform="matrix(.076279 0 0 .076279 55.391 211.62)" data-name="Layer 65">
+     <path id="dev-prod-if" d="m32 21.54a10.47 10.47 0 0 0-10.46 10.46c0.57 13.88 20.35 13.88 20.92 0a10.47 10.47 0 0 0-10.46-10.46zm0 17.92a7.46 7.46 0 0 1-7.46-7.46c0.35-9.88 14.58-9.88 14.92 0a7.46 7.46 0 0 1-7.46 7.46z"/>
+     <path id="dev-prod-ig" d="m53.94 26.57h-3.22a18.83 18.83 0 0 0-1.65-4l2.28-2.28a1.49 1.49 0 0 0 0-2.12l-5.56-5.56a1.49 1.49 0 0 0-2.12 0l-2.28 2.28a18.83 18.83 0 0 0-4-1.65v-3.18a1.5 1.5 0 0 0-1.5-1.5h-7.82a1.5 1.5 0 0 0-1.5 1.5v3.22a18.83 18.83 0 0 0-4 1.65l-2.28-2.28a1.49 1.49 0 0 0-2.12 0l-5.56 5.56a1.49 1.49 0 0 0 0 2.12l2.28 2.28a18.83 18.83 0 0 0-1.65 4h-3.18a1.5 1.5 0 0 0-1.5 1.5v7.86a1.5 1.5 0 0 0 1.5 1.5h3.22a18.83 18.83 0 0 0 1.65 4l-2.28 2.28a1.49 1.49 0 0 0 0 2.12l5.56 5.56a1.49 1.49 0 0 0 2.12 0l2.28-2.28a18.83 18.83 0 0 0 4 1.65v3.22a1.5 1.5 0 0 0 1.5 1.5h7.86a1.5 1.5 0 0 0 1.5-1.5v-3.3a18.83 18.83 0 0 0 4-1.65l2.28 2.28a1.49 1.49 0 0 0 2.12 0l5.56-5.56a1.49 1.49 0 0 0 0-2.12l-2.28-2.28a18.83 18.83 0 0 0 1.65-4h3.22a1.5 1.5 0 0 0 1.5-1.5v-7.82a1.5 1.5 0 0 0-1.58-1.5zm-1.5 7.86h-3.01a1.51 1.51 0 0 0-1.33 1.16 17.07 17.07 0 0 1-2.28 5.45 1.55 1.55 0 0 0 0 1.16 22.12 22.12 0 0 0 2.36 2.51l-3.44 3.44-2-2a1.53 1.53 0 0 0-1.89-0.22 15.85 15.85 0 0 1-5.22 2.17 1.53 1.53 0 0 0-1.18 1.49v2.85h-4.88v-2.85a1.54 1.54 0 0 0-0.91-1.4 17 17 0 0 1-5.49-2.26 1.53 1.53 0 0 0-1.89 0.22l-2 2-3.44-3.44 2-2a1.54 1.54 0 0 0 0.22-1.89 17 17 0 0 1-2.26-5.49 1.51 1.51 0 0 0-1.4-0.91h-2.84v-4.85a25.3 25.3 0 0 0 3.4-0.1 1.52 1.52 0 0 0 0.93-1.06 16.19 16.19 0 0 1 2.18-5.24 1.54 1.54 0 0 0-0.22-1.89l-2-2 3.44-3.44 2 2a1.54 1.54 0 0 0 1.87 0.21 17 17 0 0 1 5.49-2.26 1.54 1.54 0 0 0 0.91-1.4v-2.83h4.86v2.85a1.54 1.54 0 0 0 0.91 1.4 17 17 0 0 1 5.49 2.26 1.54 1.54 0 0 0 1.87-0.21l2-2 3.44 3.44a23 23 0 0 0-2.36 2.51 1.55 1.55 0 0 0 0 1.16 17.07 17.07 0 0 1 2.28 5.45 1.54 1.54 0 0 0 1.46 1.18h2.88z"/>
+    </g>
+    <g id="dev-prod-ih" transform="matrix(.036439 0 0 .036439 58.772 210.23)" data-name="Layer 65">
+     <path id="dev-prod-ii" d="m32 21.54a10.47 10.47 0 0 0-10.46 10.46c0.57 13.88 20.35 13.88 20.92 0a10.47 10.47 0 0 0-10.46-10.46zm0 17.92a7.46 7.46 0 0 1-7.46-7.46c0.35-9.88 14.58-9.88 14.92 0a7.46 7.46 0 0 1-7.46 7.46z"/>
+     <path id="dev-prod-ij" d="m53.94 26.57h-3.22a18.83 18.83 0 0 0-1.65-4l2.28-2.28a1.49 1.49 0 0 0 0-2.12l-5.56-5.56a1.49 1.49 0 0 0-2.12 0l-2.28 2.28a18.83 18.83 0 0 0-4-1.65v-3.18a1.5 1.5 0 0 0-1.5-1.5h-7.82a1.5 1.5 0 0 0-1.5 1.5v3.22a18.83 18.83 0 0 0-4 1.65l-2.28-2.28a1.49 1.49 0 0 0-2.12 0l-5.56 5.56a1.49 1.49 0 0 0 0 2.12l2.28 2.28a18.83 18.83 0 0 0-1.65 4h-3.18a1.5 1.5 0 0 0-1.5 1.5v7.86a1.5 1.5 0 0 0 1.5 1.5h3.22a18.83 18.83 0 0 0 1.65 4l-2.28 2.28a1.49 1.49 0 0 0 0 2.12l5.56 5.56a1.49 1.49 0 0 0 2.12 0l2.28-2.28a18.83 18.83 0 0 0 4 1.65v3.22a1.5 1.5 0 0 0 1.5 1.5h7.86a1.5 1.5 0 0 0 1.5-1.5v-3.3a18.83 18.83 0 0 0 4-1.65l2.28 2.28a1.49 1.49 0 0 0 2.12 0l5.56-5.56a1.49 1.49 0 0 0 0-2.12l-2.28-2.28a18.83 18.83 0 0 0 1.65-4h3.22a1.5 1.5 0 0 0 1.5-1.5v-7.82a1.5 1.5 0 0 0-1.58-1.5zm-1.5 7.86h-3.01a1.51 1.51 0 0 0-1.33 1.16 17.07 17.07 0 0 1-2.28 5.45 1.55 1.55 0 0 0 0 1.16 22.12 22.12 0 0 0 2.36 2.51l-3.44 3.44-2-2a1.53 1.53 0 0 0-1.89-0.22 15.85 15.85 0 0 1-5.22 2.17 1.53 1.53 0 0 0-1.18 1.49v2.85h-4.88v-2.85a1.54 1.54 0 0 0-0.91-1.4 17 17 0 0 1-5.49-2.26 1.53 1.53 0 0 0-1.89 0.22l-2 2-3.44-3.44 2-2a1.54 1.54 0 0 0 0.22-1.89 17 17 0 0 1-2.26-5.49 1.51 1.51 0 0 0-1.4-0.91h-2.84v-4.85a25.3 25.3 0 0 0 3.4-0.1 1.52 1.52 0 0 0 0.93-1.06 16.19 16.19 0 0 1 2.18-5.24 1.54 1.54 0 0 0-0.22-1.89l-2-2 3.44-3.44 2 2a1.54 1.54 0 0 0 1.87 0.21 17 17 0 0 1 5.49-2.26 1.54 1.54 0 0 0 0.91-1.4v-2.83h4.86v2.85a1.54 1.54 0 0 0 0.91 1.4 17 17 0 0 1 5.49 2.26 1.54 1.54 0 0 0 1.87-0.21l2-2 3.44 3.44a23 23 0 0 0-2.36 2.51 1.55 1.55 0 0 0 0 1.16 17.07 17.07 0 0 1 2.28 5.45 1.54 1.54 0 0 0 1.46 1.18h2.88z"/>
+    </g>
+   </g>
+  </g>
+  <path id="dev-prod-ik" d="m39.451 93.157v-1.7451h4.0463v-1.864h-4.0463v-1.7451l-2.3182 1.3384-2.3187 1.3389 2.3187 1.3384z" fill="#4d4d4d" opacity=".99"/>
+  <g id="dev-prod-il" transform="translate(-71.702 -.26458)" fill="#ff8400">
+   <path id="dev-prod-im" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" filter="url(#dev-prod-i)" opacity=".99"/>
+   <path id="dev-prod-in" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" filter="url(#dev-prod-h)" opacity=".99"/>
+   <path id="dev-prod-io" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" opacity=".99"/>
+  </g>
+  <g id="dev-prod-ip" transform="rotate(180 93.975 90.613)" fill="#ff8400">
+   <path id="dev-prod-iq" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" filter="url(#dev-prod-i)" opacity=".99"/>
+   <path id="dev-prod-ir" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" filter="url(#dev-prod-h)" opacity=".99"/>
+   <path id="dev-prod-is" d="m148.5 88.068v1.7451h-4.0463v1.864h4.0463v1.7451l2.3182-1.3384 2.3187-1.3389-2.3187-1.3384z" opacity=".99"/>
+  </g>
+ </g>
+</svg>
