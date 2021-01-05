@@ -59,6 +59,11 @@
             transform: translate(-50%, -50%);
         }
 
+        .sliders{
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -406,7 +411,40 @@
         <div class="fuel">
             <span>70</span> &#37
         </div>
+        
     </div>   
-
+    <div class="sliders">
+        <label for="myRange">Speed:</label>
+        <input type="range" min="0" max="160" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Rpm:</label>
+        <input type="range" min="0" max="10" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Temperature:</label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Fuel:</label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Gear:</label>
+        <input type="range" min="0" max="5" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Signal:</label>
+        <input type="range" min="0" max="4" value="0" class="slider" id="myRange">
+    </div>
+    <div class="sliders">
+        <button>Brake</button>
+    </div>
+    <div class="sliders">
+        <button>Left Inidcator</button>
+    </div>
+    <div class="sliders">
+        <button>Right Inidcator</button>
+    </div>
 </body>
 </html>
