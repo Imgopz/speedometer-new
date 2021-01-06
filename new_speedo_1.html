@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: rgb(214, 214, 214);
+        }
+        .centered {
+            position: absolute;
+            top: 44%;
+            left: 50%;
+            font-size: 1.9rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+
+        .digitalDisp{
+            font-family: 'DSEG7 Classic';
+        }
+
+        .bottom {
+            position: absolute;
+            top: 53%;
+            left: 51%;
+            font-size: 1.2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+
+        .gear {
+            position: absolute;
+            top: 61%;
+            left: 50%;
+            font-size: 1.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+
+        .temperature {
+            position: absolute;
+            top: 76%;
+            left: 45%;
+            font-size: 1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+
+        .fuel {
+            position: absolute;
+            top: 83%;
+            left: 45%;
+            font-size: 1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+
+        .sliders{
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Animations */
+        #dev-prod-ej, #dev-prod-ek, #dev-prod-el, #dev-prod-ep, #dev-prod-en, #dev-prod-eo{
+            /* transform: rotateZ(15deg); */
+            transform-box: fill-box;
+            transform-origin:  bottom;
+            transition: all 0.5s ease-out;
+        }
+
+        #dev-prod-eu, #dev-prod-ev, #dev-prod-ew, #dev-prod-ez, #dev-prod-fb, #dev-prod-fc  {
+            /* transform: rotateZ(-10deg); */
+            transform-box: fill-box;
+            transform-origin:  bottom;
+            transition: all 0.5s ease-out;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg id="dev-prod-ad" width="154.07mm" height="153.97mm" version="1.1" viewBox="0 0 154.07 153.97" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs id="dev-prod-ae">
+             <filter id="dev-prod-a" x="-1.5855e-5" y="-2.4334e-5" width="1" height="1" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-af" stdDeviation="8.6629087e-05"/>
+             </filter>
+             <radialGradient id="dev-prod-k" cx="119.3" cy="146.2" r="18.884" gradientTransform="matrix(2.3926 .79557 -.74638 2.2447 -56.844 -274.47)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-n"/>
+             <linearGradient id="dev-prod-n">
+              <stop id="dev-prod-ag" stop-color="#f00" offset="0"/>
+              <stop id="dev-prod-ah" stop-color="#ff2a2a" offset="1"/>
+             </linearGradient>
+             <clipPath id="dev-prod-ab">
+              <path id="dev-prod-ai" d="m123.31 133.76c-14.28 11.354-14.424 11.472-14.424 11.472l-6.1506-11.773 9.7758-12.861z" display="none" fill="none" stroke="#000" stroke-width=".26458px"/>
+              <path id="dev-prod-aj" class="powerclip" d="m90.893 117.44h47.768v58.419h-47.768zm32.419 16.324-10.799-13.162-9.7758 12.861 6.1506 11.773s0.14464-0.11867 14.424-11.472z" fill="none" stroke="#000" stroke-width=".26458px"/>
+             </clipPath>
+             <clipPath id="dev-prod-e">
+              <path id="dev-prod-ak" d="m103.98 136.79 12.568-14.949 23.151 43.789-25.268 4.6302-17.463-25.731z" fill="none" stroke="#000" stroke-width=".26458px"/>
+             </clipPath>
+             <filter id="dev-prod-g" x="-.028634" y="-.028634" width="1.0573" height="1.0573" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-al" stdDeviation="1.4698006"/>
+             </filter>
+             <radialGradient id="dev-prod-j" cx="114.37" cy="153.07" r="18.884" gradientTransform="matrix(2.3926 .79557 -.74638 2.2447 -56.844 -274.47)" gradientUnits="userSpaceOnUse">
+              <stop id="dev-prod-am" stop-color="#f60" offset="0"/>
+              <stop id="dev-prod-an" stop-color="#f00" offset="1"/>
+             </radialGradient>
+             <radialGradient id="dev-prod-m" cx="124.74" cy="152.06" r="64.894" gradientTransform="matrix(-2.6439 -1.652 1.6512 -2.6427 203.87 759.77)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-f"/>
+             <linearGradient id="dev-prod-f">
+              <stop id="dev-prod-ao" stop-color="#f60" offset="0"/>
+              <stop id="dev-prod-ap" stop-color="#ff0" offset="1"/>
+             </linearGradient>
+             <radialGradient id="dev-prod-l" cx="118.77" cy="144.89" r="64.894" gradientTransform="matrix(-2.6439 -1.652 1.6512 -2.6427 203.87 759.77)" gradientUnits="userSpaceOnUse" xlink:href="#dev-prod-f"/>
+             <filter id="dev-prod-q" x="-.048587" y="-.048587" width="1.0972" height="1.0972" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-aq" stdDeviation="0.94617713"/>
+             </filter>
+             <filter id="dev-prod-c" x="-.9544" y="-.011601" width="2.9088" height="1.0232" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-ar" stdDeviation="0.31564934"/>
+             </filter>
+             <filter id="dev-prod-d" x="-.55811" y="-.0067838" width="2.1162" height="1.0136" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-as" stdDeviation="0.18458387"/>
+             </filter>
+             <filter id="dev-prod-r" x="-.079357" y="-.066871" width="1.1587" height="1.1337" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-at" stdDeviation="1.4080466"/>
+             </filter>
+             <filter id="dev-prod-s" x="-.04474" y="-.04474" width="1.0895" height="1.0895" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-au" stdDeviation="0.98588147"/>
+             </filter>
+             <filter id="dev-prod-i" x="-.22108" y="-.35855" width="1.4422" height="1.7171" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-av" stdDeviation="1.7874236"/>
+             </filter>
+             <filter id="dev-prod-h" x="-.11341" y="-.18392" width="1.2268" height="1.3678" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-aw" stdDeviation="0.91688695"/>
+             </filter>
+             <clipPath id="dev-prod-ac">
+              <g id="dev-prod-ax" display="none">
+               <path id="dev-prod-ay" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+               <path id="dev-prod-az" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+              </g>
+              <path id="dev-prod-ba" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+             </clipPath>
+             <filter id="dev-prod-y" x="-.1403" y="-.1403" width="1.2806" height="1.2806" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bb" stdDeviation="0.67677257"/>
+             </filter>
+             <clipPath id="dev-prod-z">
+              <g id="dev-prod-bc" display="none">
+               <path id="dev-prod-bd" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+               <path id="dev-prod-be" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+              </g>
+              <path id="dev-prod-bf" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+             </clipPath>
+             <clipPath id="dev-prod-aa">
+              <g id="dev-prod-bg" display="none">
+               <path id="dev-prod-bh" d="m145.33 152.5h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+               <path id="dev-prod-bi" d="m145.33 166.62h24.514v5.4024h-24.514z" fill="#999" opacity=".99" stroke="#000" stroke-width="1.3229"/>
+              </g>
+              <path id="dev-prod-bj" class="powerclip" d="m146.52 151h22.639v22.639h-22.639zm-1.1964 1.5031v5.4024h24.514v-5.4024zm0 14.114v5.4024h24.514v-5.4024z"/>
+             </clipPath>
+             <filter id="dev-prod-u" x="-.6365" y="-.27278" width="2.273" height="1.5456" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bk" stdDeviation="0.21050822"/>
+             </filter>
+             <filter id="dev-prod-v" x="-.6365" y="-.14003" width="2.273" height="1.2801" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bl" stdDeviation="0.21050822"/>
+             </filter>
+             <filter id="dev-prod-w" x="-.6365" y="-.079683" width="2.273" height="1.1594" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bm" stdDeviation="0.21050822"/>
+             </filter>
+             <filter id="dev-prod-x" x="-.6365" y="-.056499" width="2.273" height="1.113" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bn" stdDeviation="0.21050822"/>
+             </filter>
+             <filter id="dev-prod-t" x="-.064708" y="-.064757" width="1.1294" height="1.1295" color-interpolation-filters="sRGB">
+              <feGaussianBlur id="dev-prod-bo" stdDeviation="3.4870535"/>
+             </filter>
+             <linearGradient id="dev-prod-p" x1="175.3" x2="210.21" y1="135.65" y2="135.65" gradientTransform="translate(-84.306 4.8485)" gradientUnits="userSpaceOnUse">
+              <stop id="dev-prod-bp" stop-color="#0ff" offset="0"/>
+              <stop id="dev-prod-bq" stop-color="#0f0" offset=".50977"/>
+              <stop id="dev-prod-br" stop-color="#f00" offset="1"/>
+             </linearGradient>
+             <linearGradient id="dev-prod-o" x1="141.8" x2="176.71" y1="154.92" y2="154.92" gradientTransform="translate(-50.807 -3.3536)" gradientUnits="userSpaceOnUse">
+              <stop id="dev-prod-bs" stop-color="#f00" offset="0"/>
+              <stop id="dev-prod-bt" stop-color="#f60" offset=".50245"/>
+              <stop id="dev-prod-bu" stop-color="#0f0" offset="1"/>
+             </linearGradient>
+            </defs>
+            <g id="dev-prod-bv" transform="translate(-22.451 -20.621)">
+             <ellipse id="dev-prod-bw" cx="99.487" cy="97.607" rx="64.667" ry="64.617" filter="url(#dev-prod-t)" opacity=".99" stroke="#000" stroke-width="1.5514"/>
+             <ellipse id="dev-prod-bx" cx="99.487" cy="97.607" rx="64.667" ry="64.617" opacity=".99" stroke="#000" stroke-width="1.5514"/>
+             <text id="dev-prod-by" transform="matrix(.51401 0 0 .51361 64.699 33.527)" fill="#ffffff" filter="url(#dev-prod-a)" font-family="sans-serif" font-size="11.289px" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5895);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">4</tspan></tspan></text>
+             <g fill="#ccc">
+              <rect id="dev-prod-bz" transform="matrix(-.50029 -.86586 .86619 -.49971 0 0)" x="-134.79" y="-26.811" width="1.0577" height="7.936" opacity=".99"/>
+              <rect id="dev-prod-ca" transform="matrix(-.259 -.96588 .96598 -.25863 0 0)" x="-120.55" y="6.6816" width="1.0576" height="7.9371" opacity=".99"/>
+              <rect id="dev-prod-cb" transform="rotate(-90)" x="-98.136" y="35.354" width="1.0575" height="7.9375" opacity=".99"/>
+              <rect id="dev-prod-cc" transform="matrix(.259 -.96588 .96598 .25863 0 0)" x="-69.084" y="57.243" width="1.0576" height="7.9371" opacity=".99"/>
+              <rect id="dev-prod-cd" transform="matrix(.50029 -.86586 .86619 .49971 0 0)" x="-35.36" y="70.853" width="1.0577" height="7.936" opacity=".99"/>
+              <rect id="dev-prod-ce" transform="matrix(.96598 -.25863 .259 .96588 0 0)" x="70.283" y="55.929" width="1.0583" height="7.9318" opacity=".99"/>
+             </g>
+             <g fill="#808080">
+              <rect id="dev-prod-cf" transform="matrix(.76629 .6425 -.64308 .7658 0 0)" x="138.43" y="-53.23" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-cg" transform="matrix(.50029 .86586 -.86619 .49971 0 0)" x="133.73" y="-101.43" width="1.0577" height="11.303" opacity=".99"/>
+              <rect id="dev-prod-ch" transform="matrix(.17378 .98478 -.98483 .17352 0 0)" x="112.86" y="-145.14" width="1.0575" height="11.305" opacity=".99"/>
+              <rect id="dev-prod-ci" transform="matrix(-.17378 .98478 -.98483 -.17352 0 0)" x="78.335" y="-179.07" width="1.0575" height="11.305" opacity=".99"/>
+              <rect id="dev-prod-cj" transform="matrix(-.50029 .86586 -.86619 -.49971 0 0)" x="34.303" y="-199.1" width="1.0577" height="11.303" opacity=".99"/>
+              <rect id="dev-prod-ck" transform="matrix(-.76629 .6425 -.64308 -.7658 0 0)" x="-13.948" y="-202.82" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-cl" transform="matrix(.76629 .6425 -.64308 .7658 0 0)" x="138.43" y="-53.23" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-cm" transform="matrix(.50029 .86586 -.86619 .49971 0 0)" x="133.73" y="-101.43" width="1.0577" height="11.303" opacity=".99"/>
+              <rect id="dev-prod-cn" transform="matrix(.17378 .98478 -.98483 .17352 0 0)" x="112.86" y="-145.14" width="1.0575" height="11.305" opacity=".99"/>
+              <rect id="dev-prod-co" transform="matrix(-.17378 .98478 -.98483 -.17352 0 0)" x="78.335" y="-179.07" width="1.0575" height="11.305" opacity=".99"/>
+              <rect id="dev-prod-cp" transform="matrix(-.50029 .86586 -.86619 -.49971 0 0)" x="34.303" y="-199.1" width="1.0577" height="11.303" opacity=".99"/>
+              <rect id="dev-prod-cq" transform="matrix(-.76629 .6425 -.64308 -.7658 0 0)" x="-13.948" y="-202.82" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-cr" transform="matrix(.76629 .6425 -.64308 .7658 0 0)" x="138.43" y="-53.23" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-cs" transform="matrix(.50029 .86586 -.86619 .49971 0 0)" x="133.73" y="-101.43" width="1.0577" height="11.303" opacity=".99"/>
+              <rect id="dev-prod-ct" transform="matrix(.17378 .98478 -.98483 .17352 0 0)" x="112.86" y="-145.14" width="1.0575" height="11.305" opacity=".99"/>
+              <rect id="dev-prod-cu" transform="matrix(-.17378 .98478 -.98483 -.17352 0 0)" x="78.335" y="-179.07" width="1.0575" height="11.305" opacity=".99"/>
+             </g>
+             <rect id="dev-prod-cv" transform="matrix(-.50029 .86586 -.86619 -.49971 0 0)" x="34.303" y="-199.1" width="1.0577" height="11.303" fill="#ccc" opacity=".99"/>
+             <rect id="dev-prod-cw" transform="matrix(-.76629 .6425 -.64308 -.7658 0 0)" x="-13.948" y="-202.82" width="1.058" height="11.3" fill="#808080" opacity=".99"/>
+             <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+              <text id="dev-prod-cx" transform="matrix(.51401 0 0 .51361 -30.245 -1.2544)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5803);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">100</tspan></tspan></text>
+              <text id="dev-prod-cy" transform="matrix(.51401 0 0 .51361 -21.63 -13.376)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5827);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">120</tspan></tspan></text>
+              <text id="dev-prod-cz" transform="matrix(.51401 0 0 .51361 -9.6526 -22.138)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5833);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">140</tspan></tspan></text>
+              <text id="dev-prod-da" transform="matrix(.51401 0 0 .51361 3.5751 -27.859)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5839);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">160</tspan></tspan></text>
+             </g>
+             <g id="dev-prod-db" transform="matrix(-.098119 -.99441 .99518 -.098043 -70.913 184.04)" clip-path="url(#dev-prod-ab)" fill="none" stroke-width="7.5607">
+              <circle id="dev-prod-dc" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" d="M 130.95764,178.06491 A 61.597267,61.597267 0 0 1 69.360374,239.66218 61.597267,61.597267 0 0 1 7.7631073,178.06491 61.597267,61.597267 0 0 1 69.360374,116.46764 61.597267,61.597267 0 0 1 130.95764,178.06491" clip-path="url(#dev-prod-e)" filter="url(#dev-prod-g)" opacity=".79472" stroke="url(#dev-prod-k)"/>
+              <circle id="dev-prod-dd" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" d="M 130.95764,178.06491 A 61.597267,61.597267 0 0 1 69.360374,239.66218 61.597267,61.597267 0 0 1 7.7631073,178.06491 61.597267,61.597267 0 0 1 69.360374,116.46764 61.597267,61.597267 0 0 1 130.95764,178.06491" clip-path="url(#dev-prod-e)" opacity=".79472" stroke="url(#dev-prod-j)"/>
+             </g>
+             <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+              <text id="dev-prod-de" transform="matrix(.51401 0 0 .51361 64.9 16.25)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5901);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">6</tspan></tspan></text>
+              <text id="dev-prod-df" transform="matrix(.51401 0 0 .51361 59.174 -.054136)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5907);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">8</tspan></tspan></text>
+              <text id="dev-prod-dg" transform="matrix(.51401 0 0 .51361 44.907 -13.022)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5913);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">10</tspan></tspan></text>
+             </g>
+             <g id="dev-prod-dh" transform="matrix(1 0 0 .99924 30.127 -80.322)" fill="none" stroke-width="7.5607">
+              <circle id="dev-prod-di" transform="translate(-1.0763 .59575)" cx="69.36" cy="178.06" r="61.597" clip-path="url(#dev-prod-e)" filter="url(#dev-prod-g)" opacity=".79472" stroke="url(#dev-prod-m)"/>
+              <path id="dev-prod-dj" transform="translate(-1.0763 .59575)" d="m130.96 178.06a61.597 61.597 0 0 1-59.395 61.558 61.597 61.597 0 0 1-63.642-57.156 61.597 61.597 0 0 1 54.845-65.645 61.597 61.597 0 0 1 67.563 52.463" clip-path="url(#dev-prod-e)" opacity=".79472" stroke="url(#dev-prod-l)"/>
+             </g>
+             <rect id="dev-prod-b" transform="matrix(.64308 .7658 -.76629 .6425 0 0)" x="138.32" y="-77.742" width=".7934" height="4.3313" fill="#b3b3b3" opacity=".99"/>
+             <use id="dev-prod-dk" transform="matrix(.93969 .34176 -.34228 .93969 39.409 -28.114)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+             <g fill="#ccc">
+              <rect id="dev-prod-dl" transform="matrix(.70738 -.70683 .70738 .70683 0 0)" x=".74713" y="75.258" width="1.0579" height="7.9345" opacity=".99"/>
+              <rect id="dev-prod-dm" transform="matrix(.86619 -.49971 .50029 .86586 0 0)" x="36.781" y="70.165" width="1.0581" height="7.933" opacity=".99"/>
+              <rect id="dev-prod-dn" transform="matrix(.76629 .6425 -.64308 .7658 0 0)" x="138.43" y="-53.23" width="1.058" height="11.3" opacity=".99"/>
+              <rect id="dev-prod-do" transform="matrix(.50029 .86586 -.86619 .49971 0 0)" x="133.73" y="-101.43" width="1.0577" height="11.303" opacity=".99"/>
+             </g>
+             <use id="dev-prod-dp" transform="matrix(.76604 .64229 -.64328 .76604 86.065 -41.064)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+             <rect id="dev-prod-dq" transform="matrix(.17378 .98478 -.98483 .17352 0 0)" x="112.86" y="-145.14" width="1.0575" height="11.305" fill="#ccc" opacity=".99"/>
+             <use id="dev-prod-dr" transform="matrix(.5 .86536 -.86669 .5 134.34 -37.289)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+             <rect id="dev-prod-ds" transform="matrix(-.17378 .98478 -.98483 -.17352 0 0)" x="78.335" y="-179.07" width="1.0575" height="11.305" fill="#ccc" opacity=".99"/>
+             <g fill="#b3b3b3">
+              <rect id="dev-prod-dt" transform="matrix(-.60906 -.79313 .79358 -.60847 0 0)" x="-138.52" y="-44.657" width="1.0578" height="5.2902" opacity=".99"/>
+              <rect id="dev-prod-du" transform="matrix(-.38293 -.92378 .92398 -.38243 0 0)" x="-128.76" y="-9.5994" width="1.0576" height="5.2911" opacity=".99"/>
+              <rect id="dev-prod-dv" transform="matrix(-.13062 -.99143 .99146 -.13043 0 0)" x="-110.28" y="21.752" width="1.0575" height="5.2916" opacity=".99"/>
+              <rect id="dev-prod-dw" transform="matrix(.13062 -.99143 .99146 .13043 0 0)" x="-84.326" y="47.252" width="1.0575" height="5.2916" opacity=".99"/>
+              <rect id="dev-prod-dx" transform="matrix(.38293 -.92378 .92398 .38243 0 0)" x="-52.669" y="65.155" width="1.0576" height="5.2911" opacity=".99"/>
+              <rect id="dev-prod-dy" transform="matrix(.60906 -.79313 .79358 .60847 0 0)" x="-17.453" y="74.239" width="1.0578" height="5.2902" opacity=".99"/>
+              <rect id="dev-prod-dz" transform="matrix(.79358 -.60847 .60906 .79313 0 0)" x="18.929" y="73.891" width="1.058" height="5.2891" opacity=".99"/>
+              <rect id="dev-prod-ea" transform="matrix(.92398 -.38243 .38293 .92378 0 0)" x="53.998" y="64.143" width="1.0582" height="5.2882" opacity=".99"/>
+             </g>
+             <rect id="dev-prod-eb" transform="matrix(-.70738 -.70683 .70738 -.70683 0 0)" x="-139.9" y="-62.833" width="1.0579" height="7.9345" fill="#ccc" opacity=".99"/>
+             <g fill="#ffffff" font-family="sans-serif" font-size="11.289px">
+              <text id="dev-prod-ec" transform="matrix(.51401 0 0 .51361 -30.305 49.717)" style="line-height:1.25;shape-inside:url(#rect5739);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="Tahoma">20</tspan></tspan></text>
+              <text id="dev-prod-ed" transform="matrix(.51401 0 0 .51361 -30.305 49.717)" style="line-height:1.25;shape-inside:url(#rect5919);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">20</tspan></tspan></text>
+              <text id="dev-prod-ee" transform="matrix(.51401 0 0 .51361 -35.386 37.405)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5785);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">40</tspan></tspan></text>
+              <text id="dev-prod-ef" transform="matrix(.51401 0 0 .51361 -37.101 24.16)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5791);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">60</tspan></tspan></text>
+              <text id="dev-prod-eg" transform="matrix(.51401 0 0 .51361 -35.328 10.936)" filter="url(#dev-prod-a)" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5797);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">80</tspan></tspan></text>
+             </g>
+             <g id="dev-prod-eh" transform="matrix(1 0 0 .99924 30.127 -80.322)" fill="#fc0">
+              <g id="dev-prod-ei" transform="rotate(225 105.72 192.58)" filter="url(#dev-prod-q)">
+               <rect id="dev-prod-ej" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+               <rect id="dev-prod-ek" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+               <rect id="dev-prod-el" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+              </g>
+              <g id="dev-prod-em" transform="rotate(225 105.72 192.58)">
+               <rect id="dev-prod-en" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+               <rect id="dev-prod-eo" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+               <rect id="dev-prod-ep" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+              </g>
+             </g>
+             <text id="dev-prod-eq" transform="matrix(.51401 0 0 .51361 58.597 49.694)" fill="#ffffff" filter="url(#dev-prod-a)" font-family="sans-serif" font-size="11.289px" opacity=".999" style="line-height:1.25;shape-inside:url(#rect5889);white-space:pre" xml:space="preserve"><tspan x="159.02539" y="146.87342"><tspan fill="#ffffff" font-family="'Segoe UI'">2</tspan></tspan></text>
+             <use id="dev-prod-er" transform="matrix(.17365 .98405 -.98556 .17365 178.41 -17.243)" width="100%" height="100%" xlink:href="#dev-prod-b"/>
+             <g id="dev-prod-es" transform="matrix(1 0 0 .99924 30.127 -80.322)">
+              <g id="dev-prod-et" transform="rotate(140 105.36 164.43)" fill="#f00">
+               <rect id="dev-prod-eu" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+               <rect id="dev-prod-ev" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+               <rect id="dev-prod-ew" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+              </g>
+              <g id="dev-prod-ex" transform="rotate(140 105.36 164.43)" filter="url(#dev-prod-r)">
+               <g id="dev-prod-ey" fill="#f00">
+                <rect id="dev-prod-ez" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-c)" opacity=".99"/>
+                <g id="dev-prod-fa">
+                 <rect id="dev-prod-fb" x="141.3" y="111.83" width=".79375" height="65.303" filter="url(#dev-prod-d)" opacity=".99"/>
+                 <rect id="dev-prod-fc" x="141.3" y="111.83" width=".79375" height="65.303" opacity=".99" stroke="#800000" stroke-width=".026458"/>
+                </g>
+               </g>
+              </g>
+             </g>
+             <circle id="dev-prod-fd" transform="matrix(1 0 0 .99924 -.00045327 .024019)" cx="99.487" cy="97.658" r="26.443" fill="none" filter="url(#dev-prod-s)" opacity=".99" stroke="#b3b3b3" stroke-width="1.5875"/>
+             <ellipse id="dev-prod-fe" cx="99.487" cy="97.607" rx="26.443" ry="26.423" opacity=".99" stroke="#666" stroke-width="1.5869"/>
+             <path id="dev-prod-ff" d="m88.815 148.53v2.2802c0 0.11438-0.09289 0.20729-0.20745 0.20729-0.11455 0-0.20745-0.0927-0.20745-0.20729v-0.82915c0-0.34344-0.27864-0.62187-0.62234-0.62187h-0.62235v-2.4875c0-0.22896-0.18575-0.41458-0.4149-0.41458h-2.4894c-0.22915 0-0.4149 0.18562-0.4149 0.41458v4.5604c0 0.22897 0.18575 0.41459 0.4149 0.41459h2.4894c0.22915 0 0.4149-0.18562 0.4149-0.41459v-1.6583h0.62235c0.11455 0 0.20745 0.0927 0.20745 0.20729v0.82915c0 0.34344 0.27864 0.62186 0.62234 0.62186s0.62235-0.27842 0.62235-0.62186v-2.6948c0-0.22896-0.18575-0.41458-0.4149-0.41458v-0.62601c-0.0021-0.11282-0.09448-0.20319-0.20745-0.20314-0.11684 2e-3 -0.21002 0.0981-0.20807 0.21492 8.4e-5 5e-3 2.64e-4 9e-3 5.29e-4 0.0125v1.0157c0 0.22897 0.18575 0.41458 0.4149 0.41458 0.22915 0 0.4149-0.18561 0.4149-0.41458s-0.18575-0.41459-0.4149-0.41459m-2.0745 1.0364c0 0.11439-0.0929 0.20729-0.20745 0.20729h-2.0745c-0.11455 0-0.20745-0.0927-0.20745-0.20729v-1.2437c0-0.11455 0.09289-0.20728 0.20745-0.20728h2.0745c0.11455 0 0.20745 0.0927 0.20745 0.20728z" fill="#f00" stroke-width=".41474"/>
+             <g id="dev-prod-fg" transform="matrix(.01829 0 0 .018276 104.24 39.478)">
+              <g id="dev-prod-fh" fill="#8b7e7f">
+               <path id="dev-prod-fi" d="m256 284.98c-1.856 0-3.712-0.639-5.214-1.917l-31.463-26.751 10.43-12.267 26.247 22.319 26.244-22.314 10.43 12.267-31.458 26.747c-1.504 1.277-3.36 1.916-5.216 1.916z"/>
+               <path id="dev-prod-fj" d="m256 376.76c-1.597 0-3.193-0.473-4.568-1.422l-58.294-40.183c-3.661-2.524 5.477-15.78 9.138-13.257l53.726 37.033 53.72-37.029c3.661-2.522 12.798 10.734 9.138 13.257l-58.289 40.179c-1.378 0.947-2.975 1.422-4.571 1.422z"/>
+               <path id="dev-prod-fk" d="m256 468.53c-1.394 0-2.789-0.362-4.037-1.085l-86.339-50.041c-3.847-2.229 4.227-16.161 8.073-13.93l82.302 47.701 82.304-47.702c3.846-2.229 11.92 11.7 8.073 13.93l-86.34 50.042c-1.247 0.724-2.642 1.085-4.036 1.085z"/>
+              </g>
+              <path id="dev-prod-fl" d="m256 220.04c-60.666 0-110.02-49.355-110.02-110.02s49.355-110.02 110.02-110.02 110.02 49.355 110.02 110.02-49.355 110.02-110.02 110.02zm0-203.94c-51.788 0-93.92 42.132-93.92 93.92s42.132 93.92 93.92 93.92 93.92-42.132 93.92-93.92-42.132-93.92-93.92-93.92z" fill="#fee191"/>
+              <path id="dev-prod-fm" d="m256 177.11c-36.991 0-67.086-30.095-67.086-67.086s30.095-67.086 67.086-67.086 67.086 30.095 67.086 67.086-30.095 67.086-67.086 67.086zm0-118.07c-28.113 0-50.985 22.873-50.985 50.985s22.873 50.985 50.985 50.985 50.985-22.873 50.985-50.985-22.872-50.985-50.985-50.985z" fill="#ffd24d"/>
+              <path id="dev-prod-fn" d="m364.03 448.93-99.982-291.95v-41.593h-16.1v41.595l-99.99 291.97c-1.44 4.207 0.802 8.784 5.007 10.225 0.864 0.295 1.744 0.436 2.609 0.436 3.346 0 6.471-2.102 7.616-5.444l84.758-247.5v297.27c0 4.446 3.604 8.05 8.05 8.05s8.05-3.604 8.05-8.05v-297.27l84.75 247.47c1.442 4.205 6.017 6.45 10.225 5.007 4.206-1.44 6.449-6.018 5.007-10.224z" fill="#605353"/>
+              <circle id="dev-prod-fo" cx="256" cy="110.02" r="16.101" fill="#f14742"/>
+             </g>
+             <g id="dev-prod-fp" transform="matrix(.44749 0 0 .44715 23.302 6.9339)" fill="#4d4d4d">
+              <path id="dev-prod-fq" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+              <rect id="dev-prod-fr" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+             </g>
+             <g id="dev-prod-fs" transform="matrix(-.44749 0 0 -.44715 166.22 119.06)" fill="#4d4d4d">
+              <g id="dev-prod-ft" transform="translate(-15.504)" fill="#4d4d4d">
+               <path id="dev-prod-fu" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+               <rect id="dev-prod-fv" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+              </g>
+             </g>
+             <g id="dev-prod-fw" transform="matrix(1 0 0 .99924 -10.061 -75.09)" fill="#f60">
+              <g id="dev-prod-fx" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)">
+               <g id="dev-prod-fy" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-fz" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-ga" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+              <g id="dev-prod-gb" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)" filter="url(#dev-prod-i)">
+               <g id="dev-prod-gc" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-gd" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-ge" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+              <g id="dev-prod-gf" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)" filter="url(#dev-prod-h)">
+               <g id="dev-prod-gg" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-gh" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-gi" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+             </g>
+             <g id="dev-prod-gj" transform="matrix(-1 0 0 -.99924 206.52 201.08)" fill="#f60">
+              <g id="dev-prod-gk" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)">
+               <g id="dev-prod-gl" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-gm" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-gn" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+              <g id="dev-prod-go" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)" filter="url(#dev-prod-i)">
+               <g id="dev-prod-gp" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-gq" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-gr" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+              <g id="dev-prod-gs" transform="matrix(-.44749 0 0 -.44749 176.28 194.3)" filter="url(#dev-prod-h)">
+               <g id="dev-prod-gt" transform="translate(-15.504)" fill="#f60">
+                <path id="dev-prod-gu" d="m118.7 128.37-5.1807-2.9911 10.361-5.9822v5.9822 5.9822z" opacity=".99"/>
+                <rect id="dev-prod-gv" x="121.26" y="123.29" width="11.663" height="4.1654" opacity=".99"/>
+               </g>
+              </g>
+             </g>
+             <g id="dev-prod-gw" transform="matrix(.10863 0 0 .10855 83.052 135)" fill="#f00" data-name="42.thermometer">
+              <path id="dev-prod-gx" d="m36.11 39.44v-28.7a6.71 6.71 0 0 0-13.41 0v28.7c-8.82 6.29-4.14 20.62 6.71 20.56 10.84 0.06 15.53-14.27 6.7-20.56zm-6.7 18.56c-9.18 0.07-12.86-12.21-5.15-17.19a1.15 1.15 0 0 0 0.44-0.84v-29.23a4.71 4.71 0 0 1 9.41 0v29.19a1.22 1.22 0 0 0 0.45 0.84c7.7 4.97 4.02 17.23-5.15 17.23z"/>
+              <path id="dev-prod-gy" d="m45 34.63h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+              <path id="dev-prod-gz" d="m45 30.48h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+              <path id="dev-prod-ha" d="m45 26.33h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+              <path id="dev-prod-hb" d="m45 22.19h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+              <path id="dev-prod-hc" d="m45 18h-5.7a1 1 0 0 0 0 2h5.7a1 1 0 0 0 0-2z"/>
+              <path id="dev-prod-hd" d="m39.26 15.89h5.74a1 1 0 0 0 0-2h-5.7a1.0002 1.0002 0 0 0-0.04 2z"/>
+              <path id="dev-prod-he" d="m30.41 41.45v-29.15a1 1 0 0 0-2 0v29.15c-8.78 1.42-7.95 14.14 1 14.36 8.95-0.22 9.78-12.94 1-14.36zm-1 12.36c-6.9-0.22-6.9-10.22 0-10.44 6.9 0.22 6.9 10.23 0 10.44z"/>
+             </g>
+             <g fill="#ffffff" font-family="sans-serif">
+              <text id="dev-prod-hf" transform="scale(1.0004 .99962)" x="55.618752" y="92.003555" font-size="4.8328px" stroke-width=".11327" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hg" x="55.618752" y="92.003555" fill="#ffffff" font-family="'Segoe UI'" stroke-width=".11327">kmh</tspan></text>
+              <text id="dev-prod-hh" transform="scale(1.0004 .99962)" x="132.71077" y="98.961998" font-size="4.8328px" stroke-width=".11327" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hi" x="132.71077" y="98.961998" fill="#ffffff" font-family="'Segoe UI'" stroke-width=".11327">/min x 100</tspan></text>
+              <g font-size="3.072px" stroke-width=".072">
+               <text id="dev-prod-hj" transform="scale(1.0004 .99962)" x="90.84581" y="137.53571" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hk" x="90.84581" y="137.53571" fill="#ffffff" stroke-width=".072">L </tspan></text>
+               <text id="dev-prod-hl" transform="scale(1.0004 .99962)" x="107.10691" y="137.53571" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hm" x="107.10691" y="137.53571" fill="#ffffff" stroke-width=".072">N </tspan></text>
+               <text id="dev-prod-hn" transform="scale(1.0004 .99962)" x="123.35604" y="137.53571" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-ho" x="123.35604" y="137.53571" fill="#ffffff" stroke-width=".072">H </tspan></text>
+               <text id="dev-prod-hp" transform="scale(1.0004 .99962)" x="90.84581" y="148.79396" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hq" x="90.84581" y="148.79396" fill="#ffffff" stroke-width=".072">L </tspan></text>
+               <text id="dev-prod-hr" transform="scale(1.0004 .99962)" x="107.10691" y="148.79396" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hs" x="107.10691" y="148.79396" fill="#ffffff" stroke-width=".072">H </tspan></text>
+               <text id="dev-prod-ht" transform="scale(1.0004 .99962)" x="123.35604" y="148.79396" style="line-height:1.25" xml:space="preserve"><tspan id="dev-prod-hu" x="123.35604" y="148.79396" fill="#ffffff" stroke-width=".072">F </tspan></text>
+              </g>
+             </g>
+             <g id="dev-prod-hv" transform="matrix(1 0 0 .99924 -58.356 -99.599)" fill="none" stroke="#4d4d4d">
+              <circle id="dev-prod-hw" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+              <path id="dev-prod-hx" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-ac)" opacity=".99" stroke-width="1.0619"/>
+             </g>
+             <g id="dev-prod-hy" transform="matrix(1 0 0 .99924 -59.502 -98.835)" fill="none">
+              <g id="dev-prod-hz" transform="translate(1.146 -.76402)" filter="url(#dev-prod-y)" stroke="#ff2a2a">
+               <circle id="dev-prod-ia" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+               <path id="dev-prod-ib" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-z)" opacity=".99" stroke-width="1.0619"/>
+              </g>
+              <g id="dev-prod-ic" transform="translate(1.146 -.76402)" stroke="#f00">
+               <circle id="dev-prod-id" cx="157.84" cy="162.32" r="3.9882" opacity=".99" stroke-width="1.5503"/>
+               <path id="dev-prod-ie" d="m163.63 162.32a5.7883 5.7883 0 0 1-5.7883 5.7884 5.7883 5.7883 0 0 1-5.7884-5.7884 5.7883 5.7883 0 0 1 5.7884-5.7883 5.7883 5.7883 0 0 1 5.7883 5.7883" clip-path="url(#dev-prod-aa)" opacity=".99" stroke-width="1.0619"/>
+              </g>
+             </g>
+             <g fill="#4d4d4d">
+              <rect id="dev-prod-if" x="112.56" y="46.985" width=".79375" height="1.8507"/>
+              <rect id="dev-prod-ig" x="113.98" y="45.23" width=".79375" height="3.6052"/>
+              <rect id="dev-prod-ih" x="115.41" y="42.5" width=".79375" height="6.3355"/>
+              <rect id="dev-prod-ii" x="116.83" y="39.9" width=".79375" height="8.9352"/>
+             </g>
+             <g id="dev-prod-ij" transform="matrix(1 0 0 .99924 -52.936 -105.02)">
+              <g id="dev-prod-ik">
+               <rect id="dev-prod-il" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0"/>
+              </g>
+              <rect id="dev-prod-im" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0" filter="url(#dev-prod-u)"/>
+             </g>
+             <g id="dev-prod-in" transform="matrix(1 0 0 .99924 -52.936 -105.02)" fill="#0f0">
+              <rect id="dev-prod-io" x="166.92" y="150.36" width=".79375" height="3.608"/>
+              <rect id="dev-prod-ip" x="166.92" y="150.36" width=".79375" height="3.608" filter="url(#dev-prod-v)"/>
+             </g>
+             <g id="dev-prod-iq" transform="matrix(1 0 0 .99924 -52.936 -105.02)" fill="#0f0">
+              <rect id="dev-prod-ir" x="168.34" y="147.63" width=".79375" height="6.3403"/>
+              <rect id="dev-prod-is" x="168.34" y="147.63" width=".79375" height="6.3403" filter="url(#dev-prod-w)"/>
+             </g>
+             <g id="dev-prod-it" transform="matrix(1 0 0 .99924 -52.936 -105.02)" fill="#0f0">
+              <rect id="dev-prod-iu" x="169.77" y="145.03" width=".79375" height="8.9421"/>
+              <rect id="dev-prod-iv" x="169.77" y="145.03" width=".79375" height="8.9421" filter="url(#dev-prod-x)"/>
+             </g>
+             <g fill="#4d4d4d" stroke-width="2.9421">
+              <g stroke="#4d4d4d">
+               <path id="dev-prod-iw" d="m90.99 140.49h34.916"/>
+               <path id="dev-prod-ix" d="m90.99 151.57h34.916"/>
+               <path id="dev-prod-iy" d="m90.99 140.49h34.916"/>
+              </g>
+              <path class="dev-prod-iz" d="m90.99 140.49h34.916" stroke="url(#dev-prod-p)" fill=none stroke-dasharray="34.92" stroke-dashoffset="34.92"/>
+              <path class="dev-prod-ja" d="m90.99 151.57h34.916" stroke="url(#dev-prod-o)" fill=none stroke-dasharray="34.92" stroke-dashoffset="34.92"/>
+             </g>
+            </g>
+           </svg>           
+                                       
+        <div class="centered">
+            <span class="digitalDisp" id="speedOutput">100</span> km/h
+        </div>
+        <div class="bottom">
+            <span class="digitalDisp" id="rpmOutput">10000</span> rpm
+        </div>
+        <div class="gear">
+            <span id="gearOutput">N</span>
+        </div>
+        <div class="temperature">
+            <span id="tempOutput">70</span> &degC
+        </div>
+        <div class="fuel">
+            <span id="fuelOutput">70</span> &#37
+        </div>
+    </div>   
+    <div class="sliders">
+        <label for="myRange">Speed:</label>
+        <input type="range" min="0" max="160" value="0" class="slider" id="speedInput">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Rpm:</label>
+        <input type="range" min="0" max="10000" value="0" class="slider" id="rpmInput">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Temperature:</label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="tempInput">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Fuel:</label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="fuelInput">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Gear:</label>
+        <input type="range" min="-1" max="5" value="0" class="slider" id="gearInput">
+    </div>
+    <div class="sliders">
+        <label for="myRange">Signal:</label>
+        <input type="range" min="0" max="4" value="0" class="slider" id="signalInput">
+    </div>
+    <div class="sliders">
+        <button>Brake</button>
+    </div>
+    <div class="sliders">
+        <button>Left Inidcator</button>
+    </div>
+    <div class="sliders">
+        <button>Right Inidcator</button>
+    </div>
+    <script>
+
+        // Speed Variation
+        var inputSpeed = document.getElementById("speedInput");
+        var outputSpeed = document.getElementById("speedOutput");
+        // #dev-prod-eo, #dev-prod-ep, #dev-prod-eq, #dev-prod-em, #dev-prod-el, #dev-prod-ek
+        var speedNeedle1 = document.getElementById("dev-prod-ej");
+        var speedNeedle2 = document.getElementById("dev-prod-ek");
+        var speedNeedle3 = document.getElementById("dev-prod-el");
+        var speedNeedle4 = document.getElementById("dev-prod-en");
+        var speedNeedle5 = document.getElementById("dev-prod-eo");
+        var speedNeedle6 = document.getElementById("dev-prod-ep");
+    
+        outputSpeed.innerHTML = inputSpeed.value;
+        inputSpeed.oninput = function() {
+          outputSpeed.innerHTML = this.value;
+          var degree = 0.75 * inputSpeed.value;        
+          speedNeedle1.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          speedNeedle2.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          speedNeedle3.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          speedNeedle4.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          speedNeedle5.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          speedNeedle6.style.setProperty('transform', `rotateZ(${degree}deg)`);
+        }
+
+        // Rpm variation
+        var inputRpm = document.getElementById("rpmInput");
+        var outputRpm = document.getElementById("rpmOutput");
+        // #dev-prod-fa, #dev-prod-fc, #dev-prod-fd, #dev-prod-ex, #dev-prod-ew, #dev-prod-ev
+        var rpmNeedle1 = document.getElementById("dev-prod-eu");
+        var rpmNeedle2 = document.getElementById("dev-prod-ev");
+        var rpmNeedle3 = document.getElementById("dev-prod-ew");
+        var rpmNeedle4 = document.getElementById("dev-prod-ez");
+        var rpmNeedle5 = document.getElementById("dev-prod-fb");
+        var rpmNeedle6 = document.getElementById("dev-prod-fc");
+    
+        outputRpm.innerHTML = inputRpm.value;
+        inputRpm.oninput = function() {
+            outputRpm.innerHTML = this.value;
+          var degree = -0.01 * inputRpm.value;        
+          rpmNeedle1.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          rpmNeedle2.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          rpmNeedle3.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          rpmNeedle4.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          rpmNeedle5.style.setProperty('transform', `rotateZ(${degree}deg)`);
+          rpmNeedle6.style.setProperty('transform', `rotateZ(${degree}deg)`);
+        }
+
+        // Temperature variation
+        var inputTemp = document.getElementById("tempInput");
+        var outputTemp = document.getElementById("tempOutput");
+        const totalLengthTemp = document.querySelectorAll(".dev-prod-iz");
+        var lenght = 0;
+        outputTemp.innerHTML = inputTemp.value;
+        totalLengthTemp.forEach( (path) => {
+            length = path.getTotalLength();
+        })
+        console.log(length);
+        inputTemp.oninput = function() {
+          outputTemp.innerHTML = this.value;
+          let to = length * ((100 - this.value) / 100);
+        //   path.getBoundingClientRect();
+            totalLengthTemp.forEach( (path) => {
+                path.style.strokeDashoffset = Math.max(0, to);
+            })
+        }
+
+        // Fuel Value
+        var inputFuel = document.getElementById("fuelInput");
+        var outputFuel = document.getElementById("fuelOutput");
+        const totalLength = document.querySelectorAll(".dev-prod-ja");
+        var lenght = 0;
+        outputFuel.innerHTML = inputFuel.value;
+        totalLength.forEach( (path) => {
+            length = path.getTotalLength();
+        })
+        console.log(length);
+        inputFuel.oninput = function() {
+          outputFuel.innerHTML = this.value;
+          let to = length * ((100 - this.value) / 100);
+        //   path.getBoundingClientRect();
+            totalLength.forEach( (path) => {
+                path.style.strokeDashoffset = Math.max(0, to);
+            })
+        }
+
+        // Gear Value
+        var inputGear = document.getElementById("gearInput");
+        var outputGear = document.getElementById("gearOutput")
+
+        inputGear.oninput = function(){
+           var sliderValue = this.value;
+           if(sliderValue == -1){
+                outputGear.innerHTML = "R";
+           }else if(sliderValue == 0){
+                outputGear.innerHTML = "N";
+           }else if(sliderValue == 1){
+               outputGear.innerHTML = "1"
+           }else if(sliderValue == 2){
+               outputGear.innerHTML = "2"
+           }else if(sliderValue == 3){
+               outputGear.innerHTML = "3"
+           }else if(sliderValue == 4){
+               outputGear.innerHTML = "4"
+           }else if(sliderValue == 5){
+               outputGear.innerHTML = "5"
+           }
+        }
+
+    </script>
+</body>
+</html>
