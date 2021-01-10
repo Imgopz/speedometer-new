@@ -65,7 +65,48 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        /* Animations */
+        #dev-prod-ik {
+            display: none;
+        }
+
+        #dev-prod-in {
+            display: none;   
+        }
+
+        #dev-prod-iq {
+            display: none;            
+        }
+
+        #dev-prod-it {
+            display: none;
+        }
+
+        /* Left Indicator */
+        #dev-prod-gj{
+            display: none;
+            animation: glow 1s infinite;
+        }
+
+        /* Right Indicator */
+        #dev-prod-fw{
+            display: none;
+            animation: glow 1s infinite;
+        }
+
+        /* Brake */
+        #dev-prod-hy{
+            display: none;
+            animation: glow 5s infinite;
+        }
+
+        @keyframes glow {
+            0%   {opacity: 0;}
+            50%  {opacity: 1;}
+            100% {opacity: 0;}
+        }
+        
+
+        /* Transformations */
         #dev-prod-ej, #dev-prod-ek, #dev-prod-el, #dev-prod-ep, #dev-prod-en, #dev-prod-eo{
             /* transform: rotateZ(15deg); */
             transform-box: fill-box;
@@ -84,7 +125,7 @@
 </head>
 <body>
     <div class="container">
-        <svg id="dev-prod-ad" width="154.07mm" height="153.97mm" version="1.1" viewBox="0 0 154.07 153.97" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg  class="container" id="dev-prod-ad" width="154.07mm" height="153.97mm" version="1.1" viewBox="0 0 154.07 153.97" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs id="dev-prod-ae">
              <filter id="dev-prod-a" x="-1.5855e-5" y="-2.4334e-5" width="1" height="1" color-interpolation-filters="sRGB">
               <feGaussianBlur id="dev-prod-af" stdDeviation="8.6629087e-05"/>
@@ -405,8 +446,8 @@
              <g id="dev-prod-ij" transform="matrix(1 0 0 .99924 -52.936 -105.02)">
               <g id="dev-prod-ik">
                <rect id="dev-prod-il" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0"/>
+               <rect id="dev-prod-im" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0" filter="url(#dev-prod-u)"/>
               </g>
-              <rect id="dev-prod-im" x="165.49" y="152.12" width=".79375" height="1.8521" fill="#0f0" filter="url(#dev-prod-u)"/>
              </g>
              <g id="dev-prod-in" transform="matrix(1 0 0 .99924 -52.936 -105.02)" fill="#0f0">
               <rect id="dev-prod-io" x="166.92" y="150.36" width=".79375" height="3.608"/>
@@ -438,8 +479,8 @@
         <div class="bottom">
             <span class="digitalDisp" id="rpmOutput">10000</span> rpm
         </div>
-        <div class="gear">
-            <span id="gearOutput">N</span>
+        <div class="gear">  
+            <span style="color: lightblue;">&#9881</span> <span id="gearOutput">N</span>
         </div>
         <div class="temperature">
             <span id="tempOutput">70</span> &degC
@@ -473,13 +514,13 @@
         <input type="range" min="0" max="4" value="0" class="slider" id="signalInput">
     </div>
     <div class="sliders">
-        <button>Brake</button>
+        <button onclick="functionBrake()">Brake</button>
     </div>
     <div class="sliders">
-        <button>Left Inidcator</button>
+        <button onclick="functionLeftIndicator()">Left Inidcator</button>
     </div>
     <div class="sliders">
-        <button>Right Inidcator</button>
+        <button onclick="functionRightIndicator()">Right Inidcator</button>
     </div>
     <script>
 
@@ -588,6 +629,73 @@
            }else if(sliderValue == 5){
                outputGear.innerHTML = "5"
            }
+        }
+
+        // Signal Value
+        var inputSignal = document.getElementById("signalInput");
+        var signalOne = document.getElementById("dev-prod-ik");
+        var signalTwo = document.getElementById("dev-prod-in");
+        var signalThree = document.getElementById("dev-prod-iq");
+        var signalFour = document.getElementById("dev-prod-it");
+
+        inputSignal.oninput = function(){
+           var sliderValue = this.value;
+           if(sliderValue == 1){
+                signalOne.style.display = "block";
+                signalTwo.style.display = "none";
+                signalThree.style.display = "none";
+                signalFour.style.display = "none";
+           }else if(sliderValue == 2){
+                signalOne.style.display = "block";
+                signalTwo.style.display = "block";
+                signalThree.style.display = "none";
+                signalFour.style.display = "none";
+           }else if(sliderValue == 3){
+                signalOne.style.display = "block";
+                signalTwo.style.display = "block";
+                signalThree.style.display = "block";
+                signalFour.style.display = "none";
+           }else if(sliderValue == 4){
+                signalOne.style.display = "block";
+                signalTwo.style.display = "block";
+                signalThree.style.display = "block";
+                signalFour.style.display = "block";
+           }else if(sliderValue == 0){
+            signalOne.style.display = "none";
+                signalTwo.style.display = "none";
+                signalThree.style.display = "none";
+                signalFour.style.display = "none";
+           }
+        }
+
+        // Break
+        function functionBrake() {
+            var x = document.getElementById("dev-prod-hy");
+            if (x.style.display === "none" || x.style.display === '') {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        //  Left indicator
+        function functionLeftIndicator() {
+            var x = document.getElementById("dev-prod-gj");
+            if (x.style.display === "none" || x.style.display === '') {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        //  Right indicator
+        function functionRightIndicator() {
+            var x = document.getElementById("dev-prod-fw");
+            if (x.style.display === "none" || x.style.display === '') {
+                x.style.display = "inline";
+            } else {
+                x.style.display = "none";
+            }
         }
 
     </script>
