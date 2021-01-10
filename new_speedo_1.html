@@ -104,8 +104,23 @@
             50%  {opacity: 1;}
             100% {opacity: 0;}
         }
-        
 
+        button {
+            outline: none;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            color: white;
+            background-color: rgb(156, 156, 156);
+            border-radius: 1rem;
+            transition: all 0.2s ease-out;
+        }
+
+        button:hover {
+            transform: scale(1.01);
+            color: black;
+            background-color: rgb(233, 182, 42);  
+        }
         /* Transformations */
         #dev-prod-ej, #dev-prod-ek, #dev-prod-el, #dev-prod-ep, #dev-prod-en, #dev-prod-eo{
             /* transform: rotateZ(15deg); */
